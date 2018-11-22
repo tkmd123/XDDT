@@ -1,0 +1,25 @@
+{
+  "xddtApp": {
+    "tinhThanh": {
+      "home": {
+        "title": "Tinh Thanhs",
+        "createLabel": "Create a new Tinh Thanh",
+        "createOrEditLabel": "Create or edit a Tinh Thanh",
+        "search": "Search for Tinh Thanh"
+      },
+      "created": "A new Tinh Thanh is created with identifier {{ param }}",
+      "updated": "A Tinh Thanh is updated with identifier {{ param }}",
+      "deleted": "A Tinh Thanh is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tinh Thanh {{ id }}?"
+      },
+      "detail": {
+        "title": "Tinh Thanh"
+      },
+      "maTinh": "Ma Tinh",
+      "tenTinh": "Ten Tinh",
+      "moTa": "Mo Ta",
+      "tinhThanhQuanHuyen": "Tinh Thanh Quan Huyen"
+    }
+  }
+}

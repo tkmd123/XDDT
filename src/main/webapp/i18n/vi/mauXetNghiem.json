@@ -1,0 +1,35 @@
+{
+  "xddtApp": {
+    "mauXetNghiem": {
+      "home": {
+        "title": "Mau Xet Nghiems",
+        "createLabel": "Thêm mới một Mau Xet Nghiem",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Mau Xet Nghiem",
+        "search": "Tìm Mau Xet Nghiem"
+      },
+      "created": "Một Mau Xet Nghiem mới được tạo với định danh {{ param }}",
+      "updated": "Một Mau Xet Nghiem cập nhật với định danh {{ param }}",
+      "deleted": "Một Mau Xet Nghiem đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Mau Xet Nghiem {{ id }}?"
+      },
+      "detail": {
+        "title": "Mau Xet Nghiem"
+      },
+      "maMauXetNghiem": "Ma Mau Xet Nghiem",
+      "nguoiTiepNhan": "Nguoi Tiep Nhan",
+      "ngayLayMau": "Ngay Lay Mau",
+      "ngayTiepNhan": "Ngay Tiep Nhan",
+      "trangThaiXuLy": "Trang Thai Xu Ly",
+      "moTa": "Mo Ta",
+      "ghiChu": "Ghi Chu",
+      "isDeleted": "Is Deleted",
+      "mauThongTinADN": "Mau Thong Tin ADN",
+      "mauPhanTich": "Mau Phan Tich",
+      "loaiMauXetNghiem": "Loai Mau Xet Nghiem",
+      "haiCotLietSi": "Hai Cot Liet Si",
+      "thanNhan": "Than Nhan",
+      "loaiThaoTac": "Loai Thao Tac"
+    }
+  }
+}

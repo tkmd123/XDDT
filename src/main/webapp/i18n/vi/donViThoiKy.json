@@ -1,0 +1,30 @@
+{
+  "xddtApp": {
+    "donViThoiKy": {
+      "home": {
+        "title": "Don Vi Thoi Kies",
+        "createLabel": "Thêm mới một Don Vi Thoi Ky",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Don Vi Thoi Ky",
+        "search": "Tìm Don Vi Thoi Ky"
+      },
+      "created": "Một Don Vi Thoi Ky mới được tạo với định danh {{ param }}",
+      "updated": "Một Don Vi Thoi Ky cập nhật với định danh {{ param }}",
+      "deleted": "Một Don Vi Thoi Ky đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Don Vi Thoi Ky {{ id }}?"
+      },
+      "detail": {
+        "title": "Don Vi Thoi Ky"
+      },
+      "tuNam": "Tu Nam",
+      "denNam": "Den Nam",
+      "diaDiemMoTa": "Dia Diem Mo Ta",
+      "diaDiemXa": "Dia Diem Xa",
+      "diaDiemHuyen": "Dia Diem Huyen",
+      "diaDiemTinh": "Dia Diem Tinh",
+      "isDeleted": "Is Deleted",
+      "ghiChu": "Ghi Chu",
+      "donVi": "Don Vi"
+    }
+  }
+}

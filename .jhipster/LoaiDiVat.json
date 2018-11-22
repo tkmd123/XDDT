@@ -1,0 +1,38 @@
+{
+    "name": "LoaiDiVat",
+    "fields": [
+        {
+            "fieldName": "maDiVat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "loaiDiVat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "loaiDiVat",
+            "otherEntityName": "diVat",
+            "otherEntityRelationshipName": "loaiDiVat"
+        }
+    ],
+    "changelogDate": "20181122154723",
+    "entityTableName": "loai_di_vat",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,25 @@
+{
+  "xddtApp": {
+    "thongTinADN": {
+      "home": {
+        "title": "Thong Tin ADNS",
+        "createLabel": "Thêm mới một Thong Tin ADN",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Thong Tin ADN",
+        "search": "Tìm Thong Tin ADN"
+      },
+      "created": "Một Thong Tin ADN mới được tạo với định danh {{ param }}",
+      "updated": "Một Thong Tin ADN cập nhật với định danh {{ param }}",
+      "deleted": "Một Thong Tin ADN đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Thong Tin ADN {{ id }}?"
+      },
+      "detail": {
+        "title": "Thong Tin ADN"
+      },
+      "moTa": "Mo Ta",
+      "fileDuLieu": "File Du Lieu",
+      "isDeleted": "Is Deleted",
+      "thongTinADNDotBien": "Thong Tin ADN Dot Bien"
+    }
+  }
+}

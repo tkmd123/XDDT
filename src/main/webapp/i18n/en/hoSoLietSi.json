@@ -1,0 +1,67 @@
+{
+  "xddtApp": {
+    "hoSoLietSi": {
+      "home": {
+        "title": "Ho So Liet Sis",
+        "createLabel": "Create a new Ho So Liet Si",
+        "createOrEditLabel": "Create or edit a Ho So Liet Si",
+        "search": "Search for Ho So Liet Si"
+      },
+      "created": "A new Ho So Liet Si is created with identifier {{ param }}",
+      "updated": "A Ho So Liet Si is updated with identifier {{ param }}",
+      "deleted": "A Ho So Liet Si is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Ho So Liet Si {{ id }}?"
+      },
+      "detail": {
+        "title": "Ho So Liet Si"
+      },
+      "maCCS": "Ma CCS",
+      "maLietSi": "Ma Liet Si",
+      "hoTen": "Ho Ten",
+      "tenKhac": "Ten Khac",
+      "biDanh": "Bi Danh",
+      "gioiTinh": "Gioi Tinh",
+      "namSinh": "Nam Sinh",
+      "queThon": "Que Thon",
+      "queXa": "Que Xa",
+      "queHuyen": "Que Huyen",
+      "queTinh": "Que Tinh",
+      "namNhapNgu": "Nam Nhap Ngu",
+      "namXuatNgu": "Nam Xuat Ngu",
+      "namTaiNgu": "Nam Tai Ngu",
+      "namDiB": "Nam Di B",
+      "hySinhNgay": "Hy Sinh Ngay",
+      "hySinhThang": "Hy Sinh Thang",
+      "hySinhNam": "Hy Sinh Nam",
+      "hySinhLyDo": "Hy Sinh Ly Do",
+      "hySinhDonVi": "Hy Sinh Don Vi",
+      "hySinhTranDanh": "Hy Sinh Tran Danh",
+      "hySinhDiaDiem": "Hy Sinh Dia Diem",
+      "hySinhXa": "Hy Sinh Xa",
+      "hySinhHuyen": "Hy Sinh Huyen",
+      "hySinhTinh": "Hy Sinh Tinh",
+      "anTangDiaDiem": "An Tang Dia Diem",
+      "anTangXa": "An Tang Xa",
+      "anTangHuyen": "An Tang Huyen",
+      "anTangTinh": "An Tang Tinh",
+      "ngayBaoTu": "Ngay Bao Tu",
+      "giayBaoTu": "Giay Bao Tu",
+      "vatDungKemTheo": "Vat Dung Kem Theo",
+      "ghiChu": "Ghi Chu",
+      "isDeleted": "Is Deleted",
+      "trangThaiXacMinh": "Trang Thai Xac Minh",
+      "uDF1": "U DF 1",
+      "uDF2": "U DF 2",
+      "uDF3": "U DF 3",
+      "lietSi": "Liet Si",
+      "lietSiMo": "Liet Si Mo",
+      "lietSiNhanDang": "Liet Si Nhan Dang",
+      "phuongXa": "Phuong Xa",
+      "donViHiSinh": "Don Vi Hi Sinh",
+      "donViHuanLuyen": "Don Vi Huan Luyen",
+      "capBac": "Cap Bac",
+      "chucVu": "Chuc Vu"
+    }
+  }
+}

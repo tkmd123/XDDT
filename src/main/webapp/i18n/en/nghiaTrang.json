@@ -1,0 +1,31 @@
+{
+  "xddtApp": {
+    "nghiaTrang": {
+      "home": {
+        "title": "Nghia Trangs",
+        "createLabel": "Create a new Nghia Trang",
+        "createOrEditLabel": "Create or edit a Nghia Trang",
+        "search": "Search for Nghia Trang"
+      },
+      "created": "A new Nghia Trang is created with identifier {{ param }}",
+      "updated": "A Nghia Trang is updated with identifier {{ param }}",
+      "deleted": "A Nghia Trang is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Nghia Trang {{ id }}?"
+      },
+      "detail": {
+        "title": "Nghia Trang"
+      },
+      "maNghiaTrang": "Ma Nghia Trang",
+      "tenNghiaTrang": "Ten Nghia Trang",
+      "diaChi": "Dia Chi",
+      "nguoiLienHe": "Nguoi Lien He",
+      "dienThoai": "Dien Thoai",
+      "email": "Email",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "nghiaTrangMo": "Nghia Trang Mo",
+      "phuongXa": "Phuong Xa"
+    }
+  }
+}

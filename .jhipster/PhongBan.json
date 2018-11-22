@@ -1,0 +1,48 @@
+{
+    "name": "PhongBan",
+    "fields": [
+        {
+            "fieldName": "maPhongBan",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenPhongBan",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isActive",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "phongLabPhanTich",
+            "otherEntityName": "thaoTac",
+            "otherEntityRelationshipName": "phongBan"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "phongBanThaoTac",
+            "otherEntityName": "loaiThaoTac",
+            "otherEntityRelationshipName": "phongBan"
+        }
+    ],
+    "changelogDate": "20181122154735",
+    "entityTableName": "phong_ban",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

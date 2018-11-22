@@ -1,0 +1,38 @@
+{
+    "name": "ChucVu",
+    "fields": [
+        {
+            "fieldName": "maChucVu",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenChucVu",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "chucVuLietSi",
+            "otherEntityName": "hoSoLietSi",
+            "otherEntityRelationshipName": "chucVu"
+        }
+    ],
+    "changelogDate": "20181122154711",
+    "entityTableName": "chuc_vu",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

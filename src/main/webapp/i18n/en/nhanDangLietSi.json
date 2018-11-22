@@ -1,0 +1,26 @@
+{
+  "xddtApp": {
+    "nhanDangLietSi": {
+      "home": {
+        "title": "Nhan Dang Liet Sis",
+        "createLabel": "Create a new Nhan Dang Liet Si",
+        "createOrEditLabel": "Create or edit a Nhan Dang Liet Si",
+        "search": "Search for Nhan Dang Liet Si"
+      },
+      "created": "A new Nhan Dang Liet Si is created with identifier {{ param }}",
+      "updated": "A Nhan Dang Liet Si is updated with identifier {{ param }}",
+      "deleted": "A Nhan Dang Liet Si is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Nhan Dang Liet Si {{ id }}?"
+      },
+      "detail": {
+        "title": "Nhan Dang Liet Si"
+      },
+      "giaTri": "Gia Tri",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "nhanDang": "Nhan Dang",
+      "lietSi": "Liet Si"
+    }
+  }
+}

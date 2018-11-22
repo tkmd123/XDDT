@@ -1,0 +1,38 @@
+{
+    "name": "LoaiHinhThaiHaiCot",
+    "fields": [
+        {
+            "fieldName": "maHinhThai",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenHinhThai",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "loaiHinhThaiHaiCot",
+            "otherEntityName": "hinhThaiHaiCot",
+            "otherEntityRelationshipName": "loaiHinhThaiHaiCot"
+        }
+    ],
+    "changelogDate": "20181122154725",
+    "entityTableName": "loai_hinh_thai_hai_cot",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

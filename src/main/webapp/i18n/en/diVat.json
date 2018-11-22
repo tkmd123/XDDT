@@ -1,0 +1,26 @@
+{
+  "xddtApp": {
+    "diVat": {
+      "home": {
+        "title": "Di Vats",
+        "createLabel": "Create a new Di Vat",
+        "createOrEditLabel": "Create or edit a Di Vat",
+        "search": "Search for Di Vat"
+      },
+      "created": "A new Di Vat is created with identifier {{ param }}",
+      "updated": "A Di Vat is updated with identifier {{ param }}",
+      "deleted": "A Di Vat is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Di Vat {{ id }}?"
+      },
+      "detail": {
+        "title": "Di Vat"
+      },
+      "giaTri": "Gia Tri",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "thongTinKhaiQuat": "Thong Tin Khai Quat",
+      "loaiDiVat": "Loai Di Vat"
+    }
+  }
+}

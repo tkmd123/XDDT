@@ -1,0 +1,52 @@
+{
+    "name": "HaiCotLietSi",
+    "fields": [
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "coHaiCot",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "thongTinHinhThaiHoc",
+            "otherEntityName": "hinhThaiHaiCot",
+            "otherEntityRelationshipName": "haiCotLietSi"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "haiCotMau",
+            "otherEntityName": "mauXetNghiem",
+            "otherEntityRelationshipName": "haiCotLietSi"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "lietSi",
+            "otherEntityName": "hoSoLietSi",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "thongTinKhaiQuat",
+            "otherEntityName": "thongTinKhaiQuat",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181122154726",
+    "entityTableName": "hai_cot_liet_si",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

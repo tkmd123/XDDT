@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "thongTinMo": {
+      "home": {
+        "title": "Thong Tin Mos",
+        "createLabel": "Thêm mới một Thong Tin Mo",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Thong Tin Mo",
+        "search": "Tìm Thong Tin Mo"
+      },
+      "created": "Một Thong Tin Mo mới được tạo với định danh {{ param }}",
+      "updated": "Một Thong Tin Mo cập nhật với định danh {{ param }}",
+      "deleted": "Một Thong Tin Mo đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Thong Tin Mo {{ id }}?"
+      },
+      "detail": {
+        "title": "Thong Tin Mo"
+      },
+      "khuMo": "Khu Mo",
+      "loMo": "Lo Mo",
+      "hangMo": "Hang Mo",
+      "soMo": "So Mo",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "moLietSi": "Mo Liet Si",
+      "nghiaTrang": "Nghia Trang"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+    "name": "ThongTinKhaiQuat",
+    "fields": [
+        {
+            "fieldName": "maKhaiQuat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nguoiKhaiQuat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "donViKhaiQuat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "thoiGianKhaiQuat",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "khaiQuatHaiCot",
+            "otherEntityName": "haiCotLietSi",
+            "otherEntityRelationshipName": "thongTinKhaiQuat"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "khaiQuatDiVat",
+            "otherEntityName": "diVat",
+            "otherEntityRelationshipName": "thongTinKhaiQuat"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "thongTinMo",
+            "otherEntityName": "thongTinMo",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181122154722",
+    "entityTableName": "thong_tin_khai_quat",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

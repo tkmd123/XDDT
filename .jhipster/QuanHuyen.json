@@ -1,0 +1,40 @@
+{
+    "name": "QuanHuyen",
+    "fields": [
+        {
+            "fieldName": "maHuyen",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenHuyen",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "tinhThanh",
+            "otherEntityName": "tinhThanh",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "quanHuyenPhuongXa",
+            "otherEntityName": "phuongXa",
+            "otherEntityRelationshipName": "quanHuyen"
+        }
+    ],
+    "changelogDate": "20181122154708",
+    "entityTableName": "quan_huyen",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,31 @@
+{
+  "xddtApp": {
+    "nghiaTrang": {
+      "home": {
+        "title": "Nghia Trangs",
+        "createLabel": "Thêm mới một Nghia Trang",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Nghia Trang",
+        "search": "Tìm Nghia Trang"
+      },
+      "created": "Một Nghia Trang mới được tạo với định danh {{ param }}",
+      "updated": "Một Nghia Trang cập nhật với định danh {{ param }}",
+      "deleted": "Một Nghia Trang đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Nghia Trang {{ id }}?"
+      },
+      "detail": {
+        "title": "Nghia Trang"
+      },
+      "maNghiaTrang": "Ma Nghia Trang",
+      "tenNghiaTrang": "Ten Nghia Trang",
+      "diaChi": "Dia Chi",
+      "nguoiLienHe": "Nguoi Lien He",
+      "dienThoai": "Dien Thoai",
+      "email": "Email",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "nghiaTrangMo": "Nghia Trang Mo",
+      "phuongXa": "Phuong Xa"
+    }
+  }
+}

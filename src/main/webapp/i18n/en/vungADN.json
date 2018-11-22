@@ -1,0 +1,26 @@
+{
+  "xddtApp": {
+    "vungADN": {
+      "home": {
+        "title": "Vung ADNS",
+        "createLabel": "Create a new Vung ADN",
+        "createOrEditLabel": "Create or edit a Vung ADN",
+        "search": "Search for Vung ADN"
+      },
+      "created": "A new Vung ADN is created with identifier {{ param }}",
+      "updated": "A Vung ADN is updated with identifier {{ param }}",
+      "deleted": "A Vung ADN is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Vung ADN {{ id }}?"
+      },
+      "detail": {
+        "title": "Vung ADN"
+      },
+      "maVungADN": "Ma Vung ADN",
+      "tenVungADN": "Ten Vung ADN",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "vungADN": "Vung ADN"
+    }
+  }
+}

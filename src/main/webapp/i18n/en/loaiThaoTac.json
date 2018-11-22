@@ -1,0 +1,30 @@
+{
+  "xddtApp": {
+    "loaiThaoTac": {
+      "home": {
+        "title": "Loai Thao Tacs",
+        "createLabel": "Create a new Loai Thao Tac",
+        "createOrEditLabel": "Create or edit a Loai Thao Tac",
+        "search": "Search for Loai Thao Tac"
+      },
+      "created": "A new Loai Thao Tac is created with identifier {{ param }}",
+      "updated": "A Loai Thao Tac is updated with identifier {{ param }}",
+      "deleted": "A Loai Thao Tac is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Loai Thao Tac {{ id }}?"
+      },
+      "detail": {
+        "title": "Loai Thao Tac"
+      },
+      "maLoaiThaoTac": "Ma Loai Thao Tac",
+      "tenLoaiThaoTac": "Ten Loai Thao Tac",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "thaoTacHienTai": "Thao Tac Hien Tai",
+      "loaiThaoTac": "Loai Thao Tac",
+      "thaoTacTiepTheo": "Thao Tac Tiep Theo",
+      "thaoTacTiepTheo": "Thao Tac Tiep Theo",
+      "phongBan": "Phong Ban"
+    }
+  }
+}

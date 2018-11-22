@@ -1,0 +1,28 @@
+{
+  "xddtApp": {
+    "haiCotLietSi": {
+      "home": {
+        "title": "Hai Cot Liet Sis",
+        "createLabel": "Thêm mới một Hai Cot Liet Si",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Hai Cot Liet Si",
+        "search": "Tìm Hai Cot Liet Si"
+      },
+      "created": "Một Hai Cot Liet Si mới được tạo với định danh {{ param }}",
+      "updated": "Một Hai Cot Liet Si cập nhật với định danh {{ param }}",
+      "deleted": "Một Hai Cot Liet Si đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Hai Cot Liet Si {{ id }}?"
+      },
+      "detail": {
+        "title": "Hai Cot Liet Si"
+      },
+      "moTa": "Mo Ta",
+      "coHaiCot": "Co Hai Cot",
+      "isDeleted": "Is Deleted",
+      "thongTinHinhThaiHoc": "Thong Tin Hinh Thai Hoc",
+      "haiCotMau": "Hai Cot Mau",
+      "lietSi": "Liet Si",
+      "thongTinKhaiQuat": "Thong Tin Khai Quat"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "xddtApp": {
+    "hinhThaiHaiCot": {
+      "home": {
+        "title": "Hinh Thai Hai Cots",
+        "createLabel": "Thêm mới một Hinh Thai Hai Cot",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Hinh Thai Hai Cot",
+        "search": "Tìm Hinh Thai Hai Cot"
+      },
+      "created": "Một Hinh Thai Hai Cot mới được tạo với định danh {{ param }}",
+      "updated": "Một Hinh Thai Hai Cot cập nhật với định danh {{ param }}",
+      "deleted": "Một Hinh Thai Hai Cot đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Hinh Thai Hai Cot {{ id }}?"
+      },
+      "detail": {
+        "title": "Hinh Thai Hai Cot"
+      },
+      "giaTri": "Gia Tri",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "haiCotLietSi": "Hai Cot Liet Si",
+      "loaiHinhThaiHaiCot": "Loai Hinh Thai Hai Cot"
+    }
+  }
+}

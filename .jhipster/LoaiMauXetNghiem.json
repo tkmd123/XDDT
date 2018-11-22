@@ -1,0 +1,38 @@
+{
+    "name": "LoaiMauXetNghiem",
+    "fields": [
+        {
+            "fieldName": "maLoaiMau",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenLoaiMau",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "loaiMauXetNghiem",
+            "otherEntityName": "mauXetNghiem",
+            "otherEntityRelationshipName": "loaiMauXetNghiem"
+        }
+    ],
+    "changelogDate": "20181122154728",
+    "entityTableName": "loai_mau_xet_nghiem",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

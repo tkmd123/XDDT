@@ -1,0 +1,25 @@
+{
+  "xddtApp": {
+    "thongTinADN": {
+      "home": {
+        "title": "Thong Tin ADNS",
+        "createLabel": "Create a new Thong Tin ADN",
+        "createOrEditLabel": "Create or edit a Thong Tin ADN",
+        "search": "Search for Thong Tin ADN"
+      },
+      "created": "A new Thong Tin ADN is created with identifier {{ param }}",
+      "updated": "A Thong Tin ADN is updated with identifier {{ param }}",
+      "deleted": "A Thong Tin ADN is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Thong Tin ADN {{ id }}?"
+      },
+      "detail": {
+        "title": "Thong Tin ADN"
+      },
+      "moTa": "Mo Ta",
+      "fileDuLieu": "File Du Lieu",
+      "isDeleted": "Is Deleted",
+      "thongTinADNDotBien": "Thong Tin ADN Dot Bien"
+    }
+  }
+}

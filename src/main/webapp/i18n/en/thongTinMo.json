@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "thongTinMo": {
+      "home": {
+        "title": "Thong Tin Mos",
+        "createLabel": "Create a new Thong Tin Mo",
+        "createOrEditLabel": "Create or edit a Thong Tin Mo",
+        "search": "Search for Thong Tin Mo"
+      },
+      "created": "A new Thong Tin Mo is created with identifier {{ param }}",
+      "updated": "A Thong Tin Mo is updated with identifier {{ param }}",
+      "deleted": "A Thong Tin Mo is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Thong Tin Mo {{ id }}?"
+      },
+      "detail": {
+        "title": "Thong Tin Mo"
+      },
+      "khuMo": "Khu Mo",
+      "loMo": "Lo Mo",
+      "hangMo": "Hang Mo",
+      "soMo": "So Mo",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "moLietSi": "Mo Liet Si",
+      "nghiaTrang": "Nghia Trang"
+    }
+  }
+}

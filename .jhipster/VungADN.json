@@ -1,0 +1,38 @@
+{
+    "name": "VungADN",
+    "fields": [
+        {
+            "fieldName": "maVungADN",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenVungADN",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "vungADN",
+            "otherEntityName": "diemDotBien",
+            "otherEntityRelationshipName": "vungADN"
+        }
+    ],
+    "changelogDate": "20181122154730",
+    "entityTableName": "vung_adn",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

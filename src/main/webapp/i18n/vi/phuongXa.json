@@ -1,0 +1,28 @@
+{
+  "xddtApp": {
+    "phuongXa": {
+      "home": {
+        "title": "Phuong Xas",
+        "createLabel": "Thêm mới một Phuong Xa",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Phuong Xa",
+        "search": "Tìm Phuong Xa"
+      },
+      "created": "Một Phuong Xa mới được tạo với định danh {{ param }}",
+      "updated": "Một Phuong Xa cập nhật với định danh {{ param }}",
+      "deleted": "Một Phuong Xa đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Phuong Xa {{ id }}?"
+      },
+      "detail": {
+        "title": "Phuong Xa"
+      },
+      "maXa": "Ma Xa",
+      "tenXa": "Ten Xa",
+      "moTa": "Mo Ta",
+      "quanHuyen": "Quan Huyen",
+      "phuongXaNghiaTrang": "Phuong Xa Nghia Trang",
+      "phuongXaLietSi": "Phuong Xa Liet Si",
+      "phuongXaThanNhan": "Phuong Xa Than Nhan"
+    }
+  }
+}

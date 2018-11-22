@@ -1,0 +1,26 @@
+{
+  "xddtApp": {
+    "nhanDangLietSi": {
+      "home": {
+        "title": "Nhan Dang Liet Sis",
+        "createLabel": "Thêm mới một Nhan Dang Liet Si",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Nhan Dang Liet Si",
+        "search": "Tìm Nhan Dang Liet Si"
+      },
+      "created": "Một Nhan Dang Liet Si mới được tạo với định danh {{ param }}",
+      "updated": "Một Nhan Dang Liet Si cập nhật với định danh {{ param }}",
+      "deleted": "Một Nhan Dang Liet Si đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Nhan Dang Liet Si {{ id }}?"
+      },
+      "detail": {
+        "title": "Nhan Dang Liet Si"
+      },
+      "giaTri": "Gia Tri",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "nhanDang": "Nhan Dang",
+      "lietSi": "Liet Si"
+    }
+  }
+}

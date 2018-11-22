@@ -1,0 +1,28 @@
+{
+  "xddtApp": {
+    "diemDotBien": {
+      "home": {
+        "title": "Diem Dot Biens",
+        "createLabel": "Create a new Diem Dot Bien",
+        "createOrEditLabel": "Create or edit a Diem Dot Bien",
+        "search": "Search for Diem Dot Bien"
+      },
+      "created": "A new Diem Dot Bien is created with identifier {{ param }}",
+      "updated": "A Diem Dot Bien is updated with identifier {{ param }}",
+      "deleted": "A Diem Dot Bien is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Diem Dot Bien {{ id }}?"
+      },
+      "detail": {
+        "title": "Diem Dot Bien"
+      },
+      "viTri": "Vi Tri",
+      "giaTri": "Gia Tri",
+      "giaTri1": "Gia Tri 1",
+      "giaTri2": "Gia Tri 2",
+      "isDeleted": "Is Deleted",
+      "vungADN": "Vung ADN",
+      "thongTinADN": "Thong Tin ADN"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+    "name": "LoaiThaoTac",
+    "fields": [
+        {
+            "fieldName": "maLoaiThaoTac",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenLoaiThaoTac",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "thaoTacHienTai",
+            "otherEntityName": "mauXetNghiem",
+            "otherEntityRelationshipName": "loaiThaoTac"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "loaiThaoTac",
+            "otherEntityName": "thaoTac",
+            "otherEntityRelationshipName": "loaiThaoTac"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "thaoTacTiepTheo",
+            "otherEntityName": "loaiThaoTac",
+            "otherEntityRelationshipName": "thaoTacTiepTheo"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "thaoTacTiepTheo",
+            "otherEntityName": "loaiThaoTac",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "phongBan",
+            "otherEntityName": "phongBan",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181122154733",
+    "entityTableName": "loai_thao_tac",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

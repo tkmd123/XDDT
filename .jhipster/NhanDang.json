@@ -1,0 +1,42 @@
+{
+    "name": "NhanDang",
+    "fields": [
+        {
+            "fieldName": "maNhanDang",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenNhanDang",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "donViTinh",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "nhanDangLietSi",
+            "otherEntityName": "nhanDangLietSi",
+            "otherEntityRelationshipName": "nhanDang"
+        }
+    ],
+    "changelogDate": "20181122154713",
+    "entityTableName": "nhan_dang",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,26 @@
+{
+  "xddtApp": {
+    "diVat": {
+      "home": {
+        "title": "Di Vats",
+        "createLabel": "Thêm mới một Di Vat",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Di Vat",
+        "search": "Tìm Di Vat"
+      },
+      "created": "Một Di Vat mới được tạo với định danh {{ param }}",
+      "updated": "Một Di Vat cập nhật với định danh {{ param }}",
+      "deleted": "Một Di Vat đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Di Vat {{ id }}?"
+      },
+      "detail": {
+        "title": "Di Vat"
+      },
+      "giaTri": "Gia Tri",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "thongTinKhaiQuat": "Thong Tin Khai Quat",
+      "loaiDiVat": "Loai Di Vat"
+    }
+  }
+}

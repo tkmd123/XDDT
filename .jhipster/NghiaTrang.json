@@ -1,0 +1,60 @@
+{
+    "name": "NghiaTrang",
+    "fields": [
+        {
+            "fieldName": "maNghiaTrang",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenNghiaTrang",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "diaChi",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nguoiLienHe",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dienThoai",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "nghiaTrangMo",
+            "otherEntityName": "thongTinMo",
+            "otherEntityRelationshipName": "nghiaTrang"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "phuongXa",
+            "otherEntityName": "phuongXa",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181122154721",
+    "entityTableName": "nghia_trang",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "thongTinKhaiQuat": {
+      "home": {
+        "title": "Thong Tin Khai Quats",
+        "createLabel": "Thêm mới một Thong Tin Khai Quat",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Thong Tin Khai Quat",
+        "search": "Tìm Thong Tin Khai Quat"
+      },
+      "created": "Một Thong Tin Khai Quat mới được tạo với định danh {{ param }}",
+      "updated": "Một Thong Tin Khai Quat cập nhật với định danh {{ param }}",
+      "deleted": "Một Thong Tin Khai Quat đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Thong Tin Khai Quat {{ id }}?"
+      },
+      "detail": {
+        "title": "Thong Tin Khai Quat"
+      },
+      "maKhaiQuat": "Ma Khai Quat",
+      "nguoiKhaiQuat": "Nguoi Khai Quat",
+      "donViKhaiQuat": "Don Vi Khai Quat",
+      "thoiGianKhaiQuat": "Thoi Gian Khai Quat",
+      "isDeleted": "Is Deleted",
+      "khaiQuatHaiCot": "Khai Quat Hai Cot",
+      "khaiQuatDiVat": "Khai Quat Di Vat",
+      "thongTinMo": "Thong Tin Mo"
+    }
+  }
+}

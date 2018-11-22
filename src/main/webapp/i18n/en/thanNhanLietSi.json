@@ -1,0 +1,26 @@
+{
+  "xddtApp": {
+    "thanNhanLietSi": {
+      "home": {
+        "title": "Than Nhan Liet Sis",
+        "createLabel": "Create a new Than Nhan Liet Si",
+        "createOrEditLabel": "Create or edit a Than Nhan Liet Si",
+        "search": "Search for Than Nhan Liet Si"
+      },
+      "created": "A new Than Nhan Liet Si is created with identifier {{ param }}",
+      "updated": "A Than Nhan Liet Si is updated with identifier {{ param }}",
+      "deleted": "A Than Nhan Liet Si is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Than Nhan Liet Si {{ id }}?"
+      },
+      "detail": {
+        "title": "Than Nhan Liet Si"
+      },
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "lietSi": "Liet Si",
+      "thanNhan": "Than Nhan",
+      "quanHeThanNhan": "Quan He Than Nhan"
+    }
+  }
+}

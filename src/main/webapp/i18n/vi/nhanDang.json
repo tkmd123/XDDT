@@ -1,0 +1,27 @@
+{
+  "xddtApp": {
+    "nhanDang": {
+      "home": {
+        "title": "Nhan Dangs",
+        "createLabel": "Thêm mới một Nhan Dang",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Nhan Dang",
+        "search": "Tìm Nhan Dang"
+      },
+      "created": "Một Nhan Dang mới được tạo với định danh {{ param }}",
+      "updated": "Một Nhan Dang cập nhật với định danh {{ param }}",
+      "deleted": "Một Nhan Dang đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Nhan Dang {{ id }}?"
+      },
+      "detail": {
+        "title": "Nhan Dang"
+      },
+      "maNhanDang": "Ma Nhan Dang",
+      "tenNhanDang": "Ten Nhan Dang",
+      "donViTinh": "Don Vi Tinh",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "nhanDangLietSi": "Nhan Dang Liet Si"
+    }
+  }
+}

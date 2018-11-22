@@ -1,0 +1,38 @@
+{
+    "name": "CapBac",
+    "fields": [
+        {
+            "fieldName": "maCapBac",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenCapBac",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "capBacLietSi",
+            "otherEntityName": "hoSoLietSi",
+            "otherEntityRelationshipName": "capBac"
+        }
+    ],
+    "changelogDate": "20181122154710",
+    "entityTableName": "cap_bac",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

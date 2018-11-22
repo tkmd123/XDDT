@@ -1,0 +1,39 @@
+{
+  "xddtApp": {
+    "hoSoThanNhan": {
+      "home": {
+        "title": "Ho So Than Nhans",
+        "createLabel": "Create a new Ho So Than Nhan",
+        "createOrEditLabel": "Create or edit a Ho So Than Nhan",
+        "search": "Search for Ho So Than Nhan"
+      },
+      "created": "A new Ho So Than Nhan is created with identifier {{ param }}",
+      "updated": "A Ho So Than Nhan is updated with identifier {{ param }}",
+      "deleted": "A Ho So Than Nhan is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Ho So Than Nhan {{ id }}?"
+      },
+      "detail": {
+        "title": "Ho So Than Nhan"
+      },
+      "maThanNhan": "Ma Than Nhan",
+      "isLayMau": "Is Lay Mau",
+      "hoTen": "Ho Ten",
+      "namSinh": "Nam Sinh",
+      "gioiTinh": "Gioi Tinh",
+      "soCMT": "So CMT",
+      "diaChi": "Dia Chi",
+      "dienThoaiChinh": "Dien Thoai Chinh",
+      "dienThoaiPhu": "Dien Thoai Phu",
+      "email": "Email",
+      "ghiChu": "Ghi Chu",
+      "isDeleted": "Is Deleted",
+      "uDF1": "U DF 1",
+      "uDF2": "U DF 2",
+      "uDF3": "U DF 3",
+      "thanNhan": "Than Nhan",
+      "thanNhanMau": "Than Nhan Mau",
+      "phuongXa": "Phuong Xa"
+    }
+  }
+}

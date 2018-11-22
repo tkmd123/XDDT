@@ -1,0 +1,26 @@
+{
+  "xddtApp": {
+    "quanHuyen": {
+      "home": {
+        "title": "Quan Huyens",
+        "createLabel": "Thêm mới một Quan Huyen",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Quan Huyen",
+        "search": "Tìm Quan Huyen"
+      },
+      "created": "Một Quan Huyen mới được tạo với định danh {{ param }}",
+      "updated": "Một Quan Huyen cập nhật với định danh {{ param }}",
+      "deleted": "Một Quan Huyen đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Quan Huyen {{ id }}?"
+      },
+      "detail": {
+        "title": "Quan Huyen"
+      },
+      "maHuyen": "Ma Huyen",
+      "tenHuyen": "Ten Huyen",
+      "moTa": "Mo Ta",
+      "tinhThanh": "Tinh Thanh",
+      "quanHuyenPhuongXa": "Quan Huyen Phuong Xa"
+    }
+  }
+}

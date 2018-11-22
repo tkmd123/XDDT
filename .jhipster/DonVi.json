@@ -1,0 +1,82 @@
+{
+    "name": "DonVi",
+    "fields": [
+        {
+            "fieldName": "maDonVi",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenDonVi",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenTat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "phanMuc",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "phanCap",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "phanKhoi",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ghiChu",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "donViHySinh",
+            "otherEntityName": "hoSoLietSi",
+            "otherEntityRelationshipName": "donViHiSinh"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "donViHuanLuyen",
+            "otherEntityName": "hoSoLietSi",
+            "otherEntityRelationshipName": "donViHuanLuyen"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "donViQuanLy",
+            "otherEntityName": "donVi",
+            "otherEntityRelationshipName": "donViQuanLy"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "donViThoiKy",
+            "otherEntityName": "donViThoiKy",
+            "otherEntityRelationshipName": "donVi"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "donViQuanLy",
+            "otherEntityName": "donVi",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181122154715",
+    "entityTableName": "don_vi",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

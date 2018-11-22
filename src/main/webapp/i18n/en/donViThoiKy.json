@@ -1,0 +1,30 @@
+{
+  "xddtApp": {
+    "donViThoiKy": {
+      "home": {
+        "title": "Don Vi Thoi Kies",
+        "createLabel": "Create a new Don Vi Thoi Ky",
+        "createOrEditLabel": "Create or edit a Don Vi Thoi Ky",
+        "search": "Search for Don Vi Thoi Ky"
+      },
+      "created": "A new Don Vi Thoi Ky is created with identifier {{ param }}",
+      "updated": "A Don Vi Thoi Ky is updated with identifier {{ param }}",
+      "deleted": "A Don Vi Thoi Ky is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Don Vi Thoi Ky {{ id }}?"
+      },
+      "detail": {
+        "title": "Don Vi Thoi Ky"
+      },
+      "tuNam": "Tu Nam",
+      "denNam": "Den Nam",
+      "diaDiemMoTa": "Dia Diem Mo Ta",
+      "diaDiemXa": "Dia Diem Xa",
+      "diaDiemHuyen": "Dia Diem Huyen",
+      "diaDiemTinh": "Dia Diem Tinh",
+      "isDeleted": "Is Deleted",
+      "ghiChu": "Ghi Chu",
+      "donVi": "Don Vi"
+    }
+  }
+}

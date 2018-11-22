@@ -1,0 +1,40 @@
+{
+    "name": "NhanDangLietSi",
+    "fields": [
+        {
+            "fieldName": "giaTri",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "nhanDang",
+            "otherEntityName": "nhanDang",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "lietSi",
+            "otherEntityName": "hoSoLietSi",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181122154714",
+    "entityTableName": "nhan_dang_liet_si",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

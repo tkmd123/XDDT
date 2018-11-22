@@ -1,0 +1,26 @@
+{
+  "xddtApp": {
+    "loaiMauXetNghiem": {
+      "home": {
+        "title": "Loai Mau Xet Nghiems",
+        "createLabel": "Thêm mới một Loai Mau Xet Nghiem",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Loai Mau Xet Nghiem",
+        "search": "Tìm Loai Mau Xet Nghiem"
+      },
+      "created": "Một Loai Mau Xet Nghiem mới được tạo với định danh {{ param }}",
+      "updated": "Một Loai Mau Xet Nghiem cập nhật với định danh {{ param }}",
+      "deleted": "Một Loai Mau Xet Nghiem đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Loai Mau Xet Nghiem {{ id }}?"
+      },
+      "detail": {
+        "title": "Loai Mau Xet Nghiem"
+      },
+      "maLoaiMau": "Ma Loai Mau",
+      "tenLoaiMau": "Ten Loai Mau",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "loaiMauXetNghiem": "Loai Mau Xet Nghiem"
+    }
+  }
+}

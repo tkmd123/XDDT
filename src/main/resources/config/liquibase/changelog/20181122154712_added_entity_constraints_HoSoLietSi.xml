@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity HoSoLietSi.
+    -->
+    <changeSet id="20181122154712-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="phuong_xa_id"
+                                 baseTableName="ho_so_liet_si"
+                                 constraintName="fk_ho_so_liet_si_phuong_xa_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="phuong_xa"/>
+
+        <addForeignKeyConstraint baseColumnNames="don_vi_hi_sinh_id"
+                                 baseTableName="ho_so_liet_si"
+                                 constraintName="fk_ho_so_liet_si_don_vi_hi_sinh_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="don_vi"/>
+
+        <addForeignKeyConstraint baseColumnNames="don_vi_huan_luyen_id"
+                                 baseTableName="ho_so_liet_si"
+                                 constraintName="fk_ho_so_liet_si_don_vi_huan_luyen_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="don_vi"/>
+
+        <addForeignKeyConstraint baseColumnNames="cap_bac_id"
+                                 baseTableName="ho_so_liet_si"
+                                 constraintName="fk_ho_so_liet_si_cap_bac_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="cap_bac"/>
+
+        <addForeignKeyConstraint baseColumnNames="chuc_vu_id"
+                                 baseTableName="ho_so_liet_si"
+                                 constraintName="fk_ho_so_liet_si_chuc_vu_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="chuc_vu"/>
+
+    </changeSet>
+</databaseChangeLog>

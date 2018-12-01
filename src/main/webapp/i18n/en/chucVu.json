@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "chucVu": {
+      "home": {
+        "title": "Chuc Vus",
+        "createLabel": "Create a new Chuc Vu",
+        "createOrEditLabel": "Create or edit a Chuc Vu",
+        "search": "Search for Chuc Vu"
+      },
+      "created": "A new Chuc Vu is created with identifier {{ param }}",
+      "updated": "A Chuc Vu is updated with identifier {{ param }}",
+      "deleted": "A Chuc Vu is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Chuc Vu {{ id }}?"
+      },
+      "detail": {
+        "title": "Chuc Vu"
+      },
+      "maChucVu": "Ma Chuc Vu",
+      "tenChucVu": "Ten Chuc Vu",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "chucVuLietSi": "Chuc Vu Liet Si"
+    }
+  }
+}

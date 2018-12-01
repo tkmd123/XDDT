@@ -1,0 +1,50 @@
+{
+    "name": "TrungTam",
+    "fields": [
+        {
+            "fieldName": "maTrungTam",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenTrungTam",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "trungtam",
+            "otherEntityName": "phongBan",
+            "otherEntityRelationshipName": "trungtam"
+        }
+    ],
+    "changelogDate": "20181201030045",
+    "entityTableName": "trung_tam",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

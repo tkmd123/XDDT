@@ -1,0 +1,30 @@
+{
+  "xddtApp": {
+    "mayPCR": {
+      "home": {
+        "title": "May PCRS",
+        "createLabel": "Thêm mới một May PCR",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật May PCR",
+        "search": "Tìm May PCR"
+      },
+      "created": "Một May PCR mới được tạo với định danh {{ param }}",
+      "updated": "Một May PCR cập nhật với định danh {{ param }}",
+      "deleted": "Một May PCR đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa May PCR {{ id }}?"
+      },
+      "detail": {
+        "title": "May PCR"
+      },
+      "maMayPCR": "Ma May PCR",
+      "tenMayPCR": "Ten May PCR",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "mayTinhSach": "May Tinh Sach",
+      "mayPCR": "May PCR"
+    }
+  }
+}

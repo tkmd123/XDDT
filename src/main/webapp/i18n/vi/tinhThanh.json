@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "tinhThanh": {
+      "home": {
+        "title": "Tinh Thanhs",
+        "createLabel": "Thêm mới một Tinh Thanh",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Tinh Thanh",
+        "search": "Tìm Tinh Thanh"
+      },
+      "created": "Một Tinh Thanh mới được tạo với định danh {{ param }}",
+      "updated": "Một Tinh Thanh cập nhật với định danh {{ param }}",
+      "deleted": "Một Tinh Thanh đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Tinh Thanh {{ id }}?"
+      },
+      "detail": {
+        "title": "Tinh Thanh"
+      },
+      "maTinh": "Ma Tinh",
+      "tenTinh": "Ten Tinh",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "tinhThanhQuanHuyen": "Tinh Thanh Quan Huyen"
+    }
+  }
+}

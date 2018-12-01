@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "chucVu": {
+      "home": {
+        "title": "Chuc Vus",
+        "createLabel": "Thêm mới một Chuc Vu",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Chuc Vu",
+        "search": "Tìm Chuc Vu"
+      },
+      "created": "Một Chuc Vu mới được tạo với định danh {{ param }}",
+      "updated": "Một Chuc Vu cập nhật với định danh {{ param }}",
+      "deleted": "Một Chuc Vu đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Chuc Vu {{ id }}?"
+      },
+      "detail": {
+        "title": "Chuc Vu"
+      },
+      "maChucVu": "Ma Chuc Vu",
+      "tenChucVu": "Ten Chuc Vu",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "chucVuLietSi": "Chuc Vu Liet Si"
+    }
+  }
+}

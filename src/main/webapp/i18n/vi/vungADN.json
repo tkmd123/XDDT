@@ -1,0 +1,26 @@
+{
+  "xddtApp": {
+    "vungADN": {
+      "home": {
+        "title": "Vung ADNS",
+        "createLabel": "Thêm mới một Vung ADN",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Vung ADN",
+        "search": "Tìm Vung ADN"
+      },
+      "created": "Một Vung ADN mới được tạo với định danh {{ param }}",
+      "updated": "Một Vung ADN cập nhật với định danh {{ param }}",
+      "deleted": "Một Vung ADN đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Vung ADN {{ id }}?"
+      },
+      "detail": {
+        "title": "Vung ADN"
+      },
+      "maVungADN": "Ma Vung ADN",
+      "tenVungADN": "Ten Vung ADN",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "vungADN": "Vung ADN"
+    }
+  }
+}

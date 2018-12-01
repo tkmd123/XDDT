@@ -1,0 +1,31 @@
+{
+  "xddtApp": {
+    "haiCotLietSi": {
+      "home": {
+        "title": "Hai Cot Liet Sis",
+        "createLabel": "Create a new Hai Cot Liet Si",
+        "createOrEditLabel": "Create or edit a Hai Cot Liet Si",
+        "search": "Search for Hai Cot Liet Si"
+      },
+      "created": "A new Hai Cot Liet Si is created with identifier {{ param }}",
+      "updated": "A Hai Cot Liet Si is updated with identifier {{ param }}",
+      "deleted": "A Hai Cot Liet Si is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Hai Cot Liet Si {{ id }}?"
+      },
+      "detail": {
+        "title": "Hai Cot Liet Si"
+      },
+      "maHaiCot": "Ma Hai Cot",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "thongTinHinhThaiHoc": "Thong Tin Hinh Thai Hoc",
+      "haiCotMau": "Hai Cot Mau",
+      "lietSi": "Liet Si",
+      "thongTinKhaiQuat": "Thong Tin Khai Quat"
+    }
+  }
+}

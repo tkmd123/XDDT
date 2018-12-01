@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "thanNhanLietSi": {
+      "home": {
+        "title": "Than Nhan Liet Sis",
+        "createLabel": "Thêm mới một Than Nhan Liet Si",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Than Nhan Liet Si",
+        "search": "Tìm Than Nhan Liet Si"
+      },
+      "created": "Một Than Nhan Liet Si mới được tạo với định danh {{ param }}",
+      "updated": "Một Than Nhan Liet Si cập nhật với định danh {{ param }}",
+      "deleted": "Một Than Nhan Liet Si đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Than Nhan Liet Si {{ id }}?"
+      },
+      "detail": {
+        "title": "Than Nhan Liet Si"
+      },
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "lietSi": "Liet Si",
+      "thanNhan": "Than Nhan",
+      "quanHeThanNhan": "Quan He Than Nhan"
+    }
+  }
+}

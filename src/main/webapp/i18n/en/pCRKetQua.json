@@ -1,0 +1,28 @@
+{
+  "xddtApp": {
+    "pCRKetQua": {
+      "home": {
+        "title": "PCR Ket Quas",
+        "createLabel": "Create a new PCR Ket Qua",
+        "createOrEditLabel": "Create or edit a PCR Ket Qua",
+        "search": "Search for PCR Ket Qua"
+      },
+      "created": "A new PCR Ket Qua is created with identifier {{ param }}",
+      "updated": "A PCR Ket Qua is updated with identifier {{ param }}",
+      "deleted": "A PCR Ket Qua is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete PCR Ket Qua {{ id }}?"
+      },
+      "detail": {
+        "title": "PCR Ket Qua"
+      },
+      "maKetQua": "Ma Ket Qua",
+      "tenKetQua": "Ten Ket Qua",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "pcrKetQua": "Pcr Ket Qua"
+    }
+  }
+}

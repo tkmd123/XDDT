@@ -1,0 +1,28 @@
+{
+  "xddtApp": {
+    "pCRKetQua": {
+      "home": {
+        "title": "PCR Ket Quas",
+        "createLabel": "Thêm mới một PCR Ket Qua",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật PCR Ket Qua",
+        "search": "Tìm PCR Ket Qua"
+      },
+      "created": "Một PCR Ket Qua mới được tạo với định danh {{ param }}",
+      "updated": "Một PCR Ket Qua cập nhật với định danh {{ param }}",
+      "deleted": "Một PCR Ket Qua đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa PCR Ket Qua {{ id }}?"
+      },
+      "detail": {
+        "title": "PCR Ket Qua"
+      },
+      "maKetQua": "Ma Ket Qua",
+      "tenKetQua": "Ten Ket Qua",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "pcrKetQua": "Pcr Ket Qua"
+    }
+  }
+}

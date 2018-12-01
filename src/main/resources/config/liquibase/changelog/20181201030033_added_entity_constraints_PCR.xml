@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity PCR.
+    -->
+    <changeSet id="20181201030033-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="maypcr_id"
+                                 baseTableName="pcr"
+                                 constraintName="fk_pcr_maypcr_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="may_pcr"/>
+
+        <addForeignKeyConstraint baseColumnNames="nhan_vienpcr_id"
+                                 baseTableName="pcr"
+                                 constraintName="fk_pcr_nhan_vienpcr_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="nhan_vien"/>
+
+    </changeSet>
+</databaseChangeLog>

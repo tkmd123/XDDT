@@ -1,0 +1,77 @@
+{
+    "name": "TachChiet",
+    "fields": [
+        {
+            "fieldName": "maTachChiet",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ghiChu",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "thoiGianThucHien",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "phuongPhapLoc",
+            "fieldType": "PhuongPhapLoc",
+            "fieldValues": "KIT,PHENOL"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "tachChietMau",
+            "otherEntityName": "mauTachChiet",
+            "otherEntityRelationshipName": "tachChietMau"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "tachChietHoaChat",
+            "otherEntityName": "hoaChatTachChiet",
+            "otherEntityRelationshipName": "tachChiet"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "nhanVienNghienMau",
+            "otherEntityName": "nhanVien",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "nhanVienTachADN",
+            "otherEntityName": "nhanVien",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181201030028",
+    "entityTableName": "tach_chiet",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

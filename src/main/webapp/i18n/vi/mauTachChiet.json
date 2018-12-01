@@ -1,0 +1,42 @@
+{
+  "xddtApp": {
+    "mauTachChiet": {
+      "home": {
+        "title": "Mau Tach Chiets",
+        "createLabel": "Thêm mới một Mau Tach Chiet",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Mau Tach Chiet",
+        "search": "Tìm Mau Tach Chiet"
+      },
+      "created": "Một Mau Tach Chiet mới được tạo với định danh {{ param }}",
+      "updated": "Một Mau Tach Chiet cập nhật với định danh {{ param }}",
+      "deleted": "Một Mau Tach Chiet đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Mau Tach Chiet {{ id }}?"
+      },
+      "detail": {
+        "title": "Mau Tach Chiet"
+      },
+      "dacDiemMau": "Dac Diem Mau",
+      "soLuongSuDung": "So Luong Su Dung",
+      "nhanXet": "Nhan Xet",
+      "xuLyBeMat": "Xu Ly Be Mat",
+      "khoiLuongNghien": "Khoi Luong Nghien",
+      "khoiLuongDeTach": "Khoi Luong De Tach",
+      "khoiLuongSauKhu": "Khoi Luong Sau Khu",
+      "khoiLuongSauLoc": "Khoi Luong Sau Loc",
+      "khoiLuongADN": "Khoi Luong ADN",
+      "khoiLuongChuaNghien": "Khoi Luong Chua Nghien",
+      "ghiChuTach": "Ghi Chu Tach",
+      "ghiChuADN": "Ghi Chu ADN",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "float1": "Float 1",
+      "float2": "Float 2",
+      "float3": "Float 3",
+      "mauTachChiet": "Mau Tach Chiet",
+      "tachChietMau": "Tach Chiet Mau"
+    }
+  }
+}

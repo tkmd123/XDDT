@@ -1,0 +1,30 @@
+{
+  "xddtApp": {
+    "pCRMau": {
+      "home": {
+        "title": "PCR Maus",
+        "createLabel": "Thêm mới một PCR Mau",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật PCR Mau",
+        "search": "Tìm PCR Mau"
+      },
+      "created": "Một PCR Mau mới được tạo với định danh {{ param }}",
+      "updated": "Một PCR Mau cập nhật với định danh {{ param }}",
+      "deleted": "Một PCR Mau đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa PCR Mau {{ id }}?"
+      },
+      "detail": {
+        "title": "PCR Mau"
+      },
+      "nongDoAgaros": "Nong Do Agaros",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "pcrKetQua": "Pcr Ket Qua",
+      "pcrMau": "Pcr Mau",
+      "mauPCR": "Mau PCR",
+      "moiPCR": "Moi PCR"
+    }
+  }
+}

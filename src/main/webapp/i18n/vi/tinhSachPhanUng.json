@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "tinhSachPhanUng": {
+      "home": {
+        "title": "Tinh Sach Phan Ungs",
+        "createLabel": "Thêm mới một Tinh Sach Phan Ung",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Tinh Sach Phan Ung",
+        "search": "Tìm Tinh Sach Phan Ung"
+      },
+      "created": "Một Tinh Sach Phan Ung mới được tạo với định danh {{ param }}",
+      "updated": "Một Tinh Sach Phan Ung cập nhật với định danh {{ param }}",
+      "deleted": "Một Tinh Sach Phan Ung đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Tinh Sach Phan Ung {{ id }}?"
+      },
+      "detail": {
+        "title": "Tinh Sach Phan Ung"
+      },
+      "dungTichSuDung": "Dung Tich Su Dung",
+      "chuTrinhNhietDo": "Chu Trinh Nhiet Do",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "tinhSach": "Tinh Sach",
+      "hoaChatTinhSach": "Hoa Chat Tinh Sach"
+    }
+  }
+}

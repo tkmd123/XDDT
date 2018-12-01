@@ -1,0 +1,30 @@
+{
+  "xddtApp": {
+    "pCRMau": {
+      "home": {
+        "title": "PCR Maus",
+        "createLabel": "Create a new PCR Mau",
+        "createOrEditLabel": "Create or edit a PCR Mau",
+        "search": "Search for PCR Mau"
+      },
+      "created": "A new PCR Mau is created with identifier {{ param }}",
+      "updated": "A PCR Mau is updated with identifier {{ param }}",
+      "deleted": "A PCR Mau is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete PCR Mau {{ id }}?"
+      },
+      "detail": {
+        "title": "PCR Mau"
+      },
+      "nongDoAgaros": "Nong Do Agaros",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "pcrKetQua": "Pcr Ket Qua",
+      "pcrMau": "Pcr Mau",
+      "mauPCR": "Mau PCR",
+      "moiPCR": "Moi PCR"
+    }
+  }
+}

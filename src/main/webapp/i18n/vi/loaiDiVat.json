@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "loaiDiVat": {
+      "home": {
+        "title": "Loai Di Vats",
+        "createLabel": "Thêm mới một Loai Di Vat",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Loai Di Vat",
+        "search": "Tìm Loai Di Vat"
+      },
+      "created": "Một Loai Di Vat mới được tạo với định danh {{ param }}",
+      "updated": "Một Loai Di Vat cập nhật với định danh {{ param }}",
+      "deleted": "Một Loai Di Vat đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Loai Di Vat {{ id }}?"
+      },
+      "detail": {
+        "title": "Loai Di Vat"
+      },
+      "maDiVat": "Ma Di Vat",
+      "loaiDiVat": "Loai Di Vat",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "loaiDiVat": "Loai Di Vat"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "xddtApp": {
+    "phongBan": {
+      "home": {
+        "title": "Phong Bans",
+        "createLabel": "Create a new Phong Ban",
+        "createOrEditLabel": "Create or edit a Phong Ban",
+        "search": "Search for Phong Ban"
+      },
+      "created": "A new Phong Ban is created with identifier {{ param }}",
+      "updated": "A Phong Ban is updated with identifier {{ param }}",
+      "deleted": "A Phong Ban is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Phong Ban {{ id }}?"
+      },
+      "detail": {
+        "title": "Phong Ban"
+      },
+      "maPhongBan": "Ma Phong Ban",
+      "tenPhongBan": "Ten Phong Ban",
+      "moTa": "Mo Ta",
+      "isActive": "Is Active",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "phongban": "Phongban",
+      "phongLabPhanTich": "Phong Lab Phan Tich",
+      "phongBanThaoTac": "Phong Ban Thao Tac",
+      "trungtam": "Trungtam"
+    }
+  }
+}

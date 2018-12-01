@@ -1,0 +1,56 @@
+{
+    "name": "MayPCR",
+    "fields": [
+        {
+            "fieldName": "maMayPCR",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenMayPCR",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "mayTinhSach",
+            "otherEntityName": "tinhSach",
+            "otherEntityRelationshipName": "mayTinhSach"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "mayPCR",
+            "otherEntityName": "pCR",
+            "otherEntityRelationshipName": "mayPCR"
+        }
+    ],
+    "changelogDate": "20181201030031",
+    "entityTableName": "may_pcr",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

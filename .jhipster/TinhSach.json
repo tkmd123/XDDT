@@ -1,0 +1,67 @@
+{
+    "name": "TinhSach",
+    "fields": [
+        {
+            "fieldName": "maTinhSach",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "thoiGianThucHien",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "phuongPhapTinhSach",
+            "fieldType": "PhuongPhapTinhSach",
+            "fieldValues": "ENZYM,KIT"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "tinhSach",
+            "otherEntityName": "tinhSachPhanUng",
+            "otherEntityRelationshipName": "tinhSach"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "nhanVienTinhSach",
+            "otherEntityName": "nhanVien",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "mayTinhSach",
+            "otherEntityName": "mayPCR",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181201030038",
+    "entityTableName": "tinh_sach",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

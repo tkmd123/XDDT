@@ -1,0 +1,39 @@
+{
+  "xddtApp": {
+    "nhanVien": {
+      "home": {
+        "title": "Nhan Viens",
+        "createLabel": "Create a new Nhan Vien",
+        "createOrEditLabel": "Create or edit a Nhan Vien",
+        "search": "Search for Nhan Vien"
+      },
+      "created": "A new Nhan Vien is created with identifier {{ param }}",
+      "updated": "A Nhan Vien is updated with identifier {{ param }}",
+      "deleted": "A Nhan Vien is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Nhan Vien {{ id }}?"
+      },
+      "detail": {
+        "title": "Nhan Vien"
+      },
+      "maNhanVien": "Ma Nhan Vien",
+      "tenNhanVien": "Ten Nhan Vien",
+      "soDienThoai": "So Dien Thoai",
+      "email": "Email",
+      "moTa": "Mo Ta",
+      "ghiChu": "Ghi Chu",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "userNhanVien": "User Nhan Vien",
+      "nhanVienTinhSach": "Nhan Vien Tinh Sach",
+      "nhanVienPCR": "Nhan Vien PCR",
+      "nhanVienNghienMau": "Nhan Vien Nghien Mau",
+      "nhanVienTachADN": "Nhan Vien Tach ADN",
+      "nhanVienHSGD": "Nhan Vien HSGD",
+      "nhanVienNhanMau": "Nhan Vien Nhan Mau",
+      "phongban": "Phongban"
+    }
+  }
+}

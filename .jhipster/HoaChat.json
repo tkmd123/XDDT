@@ -1,0 +1,70 @@
+{
+    "name": "HoaChat",
+    "fields": [
+        {
+            "fieldName": "maHoaChat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenHoaChat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "hangHoaChat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "donViTinh",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "hoaChatTinhSach",
+            "otherEntityName": "tinhSachPhanUng",
+            "otherEntityRelationshipName": "hoaChatTinhSach"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "hoaChatPhanUng",
+            "otherEntityName": "pCRPhanUng",
+            "otherEntityRelationshipName": "hoaChatPhanUng"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "hoaChatTachChiet",
+            "otherEntityName": "hoaChatTachChiet",
+            "otherEntityRelationshipName": "hoaChat"
+        }
+    ],
+    "changelogDate": "20181201030026",
+    "entityTableName": "hoa_chat",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

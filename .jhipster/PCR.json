@@ -1,0 +1,108 @@
+{
+    "name": "PCR",
+    "fields": [
+        {
+            "fieldName": "maPCR",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "thoiGianThucHien",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "nhanXet",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "thoiGianBatDau",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "congSuatBatDau",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "cuongDoBatDau",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "dienTheBatDau",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "thoiGianKetThuc",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "congSuatKetThuc",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "cuongDoKetThuc",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "dienTheKetThuc",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf4",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf5",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "pcrMau",
+            "otherEntityName": "pCRMau",
+            "otherEntityRelationshipName": "pcrMau"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "pcrPhanUng",
+            "otherEntityName": "pCRPhanUng",
+            "otherEntityRelationshipName": "pcrPhanUng"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "mayPCR",
+            "otherEntityName": "mayPCR",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "nhanVienPCR",
+            "otherEntityName": "nhanVien",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181201030033",
+    "entityTableName": "pcr",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

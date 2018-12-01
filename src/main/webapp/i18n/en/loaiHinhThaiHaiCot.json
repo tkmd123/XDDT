@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "loaiHinhThaiHaiCot": {
+      "home": {
+        "title": "Loai Hinh Thai Hai Cots",
+        "createLabel": "Create a new Loai Hinh Thai Hai Cot",
+        "createOrEditLabel": "Create or edit a Loai Hinh Thai Hai Cot",
+        "search": "Search for Loai Hinh Thai Hai Cot"
+      },
+      "created": "A new Loai Hinh Thai Hai Cot is created with identifier {{ param }}",
+      "updated": "A Loai Hinh Thai Hai Cot is updated with identifier {{ param }}",
+      "deleted": "A Loai Hinh Thai Hai Cot is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Loai Hinh Thai Hai Cot {{ id }}?"
+      },
+      "detail": {
+        "title": "Loai Hinh Thai Hai Cot"
+      },
+      "maHinhThai": "Ma Hinh Thai",
+      "tenHinhThai": "Ten Hinh Thai",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "loaiHinhThaiHaiCot": "Loai Hinh Thai Hai Cot"
+    }
+  }
+}

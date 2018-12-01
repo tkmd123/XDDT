@@ -1,0 +1,94 @@
+{
+    "name": "HoSoThanNhan",
+    "fields": [
+        {
+            "fieldName": "maThanNhan",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isLayMau",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "hoTen",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "namSinh",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "gioiTinh",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "soCMT",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "diaChi",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dienThoaiChinh",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dienThoaiPhu",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ghiChu",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "thanNhan",
+            "otherEntityName": "thanNhanLietSi",
+            "otherEntityRelationshipName": "thanNhan"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "thanNhanMau",
+            "otherEntityName": "mauXetNghiem",
+            "otherEntityRelationshipName": "thanNhan"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "phuongXa",
+            "otherEntityName": "phuongXa",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181201030014",
+    "entityTableName": "ho_so_than_nhan",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

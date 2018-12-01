@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "loaiDiVat": {
+      "home": {
+        "title": "Loai Di Vats",
+        "createLabel": "Create a new Loai Di Vat",
+        "createOrEditLabel": "Create or edit a Loai Di Vat",
+        "search": "Search for Loai Di Vat"
+      },
+      "created": "A new Loai Di Vat is created with identifier {{ param }}",
+      "updated": "A Loai Di Vat is updated with identifier {{ param }}",
+      "deleted": "A Loai Di Vat is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Loai Di Vat {{ id }}?"
+      },
+      "detail": {
+        "title": "Loai Di Vat"
+      },
+      "maDiVat": "Ma Di Vat",
+      "loaiDiVat": "Loai Di Vat",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "loaiDiVat": "Loai Di Vat"
+    }
+  }
+}

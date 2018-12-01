@@ -1,0 +1,50 @@
+{
+    "name": "PCRMoi",
+    "fields": [
+        {
+            "fieldName": "maMoi",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenMoi",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "moiPCR",
+            "otherEntityName": "pCRMau",
+            "otherEntityRelationshipName": "moiPCR"
+        }
+    ],
+    "changelogDate": "20181201030032",
+    "entityTableName": "pcr_moi",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity PCRMau.
+    -->
+    <changeSet id="20181201030036-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="pcr_ket_qua_id"
+                                 baseTableName="pcr_mau"
+                                 constraintName="fk_pcrmau_pcr_ket_qua_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="pcr_ket_qua"/>
+
+        <addForeignKeyConstraint baseColumnNames="pcr_mau_id"
+                                 baseTableName="pcr_mau"
+                                 constraintName="fk_pcrmau_pcr_mau_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="pcr"/>
+
+        <addForeignKeyConstraint baseColumnNames="maupcr_id"
+                                 baseTableName="pcr_mau"
+                                 constraintName="fk_pcrmau_maupcr_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="mau_xet_nghiem"/>
+
+        <addForeignKeyConstraint baseColumnNames="moipcr_id"
+                                 baseTableName="pcr_mau"
+                                 constraintName="fk_pcrmau_moipcr_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="pcr_moi"/>
+
+    </changeSet>
+</databaseChangeLog>

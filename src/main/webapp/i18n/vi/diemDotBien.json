@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "diemDotBien": {
+      "home": {
+        "title": "Diem Dot Biens",
+        "createLabel": "Thêm mới một Diem Dot Bien",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Diem Dot Bien",
+        "search": "Tìm Diem Dot Bien"
+      },
+      "created": "Một Diem Dot Bien mới được tạo với định danh {{ param }}",
+      "updated": "Một Diem Dot Bien cập nhật với định danh {{ param }}",
+      "deleted": "Một Diem Dot Bien đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Diem Dot Bien {{ id }}?"
+      },
+      "detail": {
+        "title": "Diem Dot Bien"
+      },
+      "viTri": "Vi Tri",
+      "giaTri": "Gia Tri",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "vungADN": "Vung ADN",
+      "mauDiemDotBien": "Mau Diem Dot Bien"
+    }
+  }
+}

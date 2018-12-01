@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity MauXetNghiem.
+    -->
+    <changeSet id="20181201030025-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="mau_xet_nghiems_id"
+                                 baseTableName="mau_xet_nghiem_mau_tinh_sach"
+                                 constraintName="fk_mau_xet_nghiem_mau_tinh_sach_mau_xet_nghiems_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="mau_xet_nghiem"/>
+        <addForeignKeyConstraint baseColumnNames="mau_tinh_saches_id"
+                                 baseTableName="mau_xet_nghiem_mau_tinh_sach"
+                                 constraintName="fk_mau_xet_nghiem_mau_tinh_sach_mau_tinh_saches_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tinh_sach"/>
+        
+        <addForeignKeyConstraint baseColumnNames="ho_so_giam_dinh_id"
+                                 baseTableName="mau_xet_nghiem"
+                                 constraintName="fk_mau_xet_nghiem_ho_so_giam_dinh_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ho_so_giam_dinh"/>
+
+        <addForeignKeyConstraint baseColumnNames="nhan_vien_nhan_mau_id"
+                                 baseTableName="mau_xet_nghiem"
+                                 constraintName="fk_mau_xet_nghiem_nhan_vien_nhan_mau_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="nhan_vien"/>
+
+        <addForeignKeyConstraint baseColumnNames="loai_mau_xet_nghiem_id"
+                                 baseTableName="mau_xet_nghiem"
+                                 constraintName="fk_mau_xet_nghiem_loai_mau_xet_nghiem_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="loai_mau_xet_nghiem"/>
+
+        <addForeignKeyConstraint baseColumnNames="hai_cot_liet_si_id"
+                                 baseTableName="mau_xet_nghiem"
+                                 constraintName="fk_mau_xet_nghiem_hai_cot_liet_si_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="hai_cot_liet_si"/>
+
+        <addForeignKeyConstraint baseColumnNames="than_nhan_id"
+                                 baseTableName="mau_xet_nghiem"
+                                 constraintName="fk_mau_xet_nghiem_than_nhan_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ho_so_than_nhan"/>
+
+        <addForeignKeyConstraint baseColumnNames="loai_thao_tac_id"
+                                 baseTableName="mau_xet_nghiem"
+                                 constraintName="fk_mau_xet_nghiem_loai_thao_tac_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="loai_thao_tac"/>
+
+    </changeSet>
+</databaseChangeLog>

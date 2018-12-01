@@ -1,0 +1,64 @@
+{
+    "name": "ThongTinMo",
+    "fields": [
+        {
+            "fieldName": "khuMo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "loMo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "hangMo",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "soMo",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "moLietSi",
+            "otherEntityName": "thongTinKhaiQuat",
+            "otherEntityRelationshipName": "thongTinMo"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "nghiaTrang",
+            "otherEntityName": "nghiaTrang",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181201030016",
+    "entityTableName": "thong_tin_mo",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,32 @@
+{
+  "xddtApp": {
+    "tinhSach": {
+      "home": {
+        "title": "Tinh Saches",
+        "createLabel": "Create a new Tinh Sach",
+        "createOrEditLabel": "Create or edit a Tinh Sach",
+        "search": "Search for Tinh Sach"
+      },
+      "created": "A new Tinh Sach is created with identifier {{ param }}",
+      "updated": "A Tinh Sach is updated with identifier {{ param }}",
+      "deleted": "A Tinh Sach is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tinh Sach {{ id }}?"
+      },
+      "detail": {
+        "title": "Tinh Sach"
+      },
+      "maTinhSach": "Ma Tinh Sach",
+      "thoiGianThucHien": "Thoi Gian Thuc Hien",
+      "phuongPhapTinhSach": "Phuong Phap Tinh Sach",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "tinhSach": "Tinh Sach",
+      "nhanVienTinhSach": "Nhan Vien Tinh Sach",
+      "mayTinhSach": "May Tinh Sach"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity HoaChatTachChiet.
+    -->
+    <changeSet id="20181201030029-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="hoa_chat_id"
+                                 baseTableName="hoa_chat_tach_chiet"
+                                 constraintName="fk_hoa_chat_tach_chiet_hoa_chat_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="hoa_chat"/>
+
+        <addForeignKeyConstraint baseColumnNames="tach_chiet_id"
+                                 baseTableName="hoa_chat_tach_chiet"
+                                 constraintName="fk_hoa_chat_tach_chiet_tach_chiet_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tach_chiet"/>
+
+    </changeSet>
+</databaseChangeLog>

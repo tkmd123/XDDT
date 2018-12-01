@@ -1,0 +1,64 @@
+{
+    "name": "HoSoGiamDinh",
+    "fields": [
+        {
+            "fieldName": "maHSGD",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "hoSoGiamDinh",
+            "otherEntityName": "mauXetNghiem",
+            "otherEntityRelationshipName": "hoSoGiamDinh"
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "",
+            "relationshipName": "giamDinhThanNhan",
+            "otherEntityName": "hoSoThanNhan",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "",
+            "relationshipName": "giamDinhLietSi",
+            "otherEntityName": "hoSoLietSi",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "nhanVienHSGD",
+            "otherEntityName": "nhanVien",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181201030009",
+    "entityTableName": "ho_so_giam_dinh",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

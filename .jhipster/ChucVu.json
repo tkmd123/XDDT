@@ -1,0 +1,50 @@
+{
+    "name": "ChucVu",
+    "fields": [
+        {
+            "fieldName": "maChucVu",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenChucVu",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "chucVuLietSi",
+            "otherEntityName": "hoSoLietSi",
+            "otherEntityRelationshipName": "chucVu"
+        }
+    ],
+    "changelogDate": "20181201030008",
+    "entityTableName": "chuc_vu",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

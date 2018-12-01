@@ -1,0 +1,30 @@
+{
+  "xddtApp": {
+    "hoSoGiamDinh": {
+      "home": {
+        "title": "Ho So Giam Dinhs",
+        "createLabel": "Create a new Ho So Giam Dinh",
+        "createOrEditLabel": "Create or edit a Ho So Giam Dinh",
+        "search": "Search for Ho So Giam Dinh"
+      },
+      "created": "A new Ho So Giam Dinh is created with identifier {{ param }}",
+      "updated": "A Ho So Giam Dinh is updated with identifier {{ param }}",
+      "deleted": "A Ho So Giam Dinh is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Ho So Giam Dinh {{ id }}?"
+      },
+      "detail": {
+        "title": "Ho So Giam Dinh"
+      },
+      "maHSGD": "Ma HSGD",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "hoSoGiamDinh": "Ho So Giam Dinh",
+      "giamDinhThanNhan": "Giam Dinh Than Nhan",
+      "giamDinhLietSi": "Giam Dinh Liet Si",
+      "nhanVienHSGD": "Nhan Vien HSGD"
+    }
+  }
+}

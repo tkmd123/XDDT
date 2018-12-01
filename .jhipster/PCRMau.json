@@ -1,0 +1,60 @@
+{
+    "name": "PCRMau",
+    "fields": [
+        {
+            "fieldName": "nongDoAgaros",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "pcrKetQua",
+            "otherEntityName": "pCRKetQua",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "pcrMau",
+            "otherEntityName": "pCR",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "mauPCR",
+            "otherEntityName": "mauXetNghiem",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "moiPCR",
+            "otherEntityName": "pCRMoi",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181201030036",
+    "entityTableName": "pcr_mau",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,64 @@
+{
+    "name": "HaiCotLietSi",
+    "fields": [
+        {
+            "fieldName": "maHaiCot",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "thongTinHinhThaiHoc",
+            "otherEntityName": "hinhThaiHaiCot",
+            "otherEntityRelationshipName": "haiCotLietSi"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "haiCotMau",
+            "otherEntityName": "mauXetNghiem",
+            "otherEntityRelationshipName": "haiCotLietSi"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "lietSi",
+            "otherEntityName": "hoSoLietSi",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "thongTinKhaiQuat",
+            "otherEntityName": "thongTinKhaiQuat",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181201030022",
+    "entityTableName": "hai_cot_liet_si",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

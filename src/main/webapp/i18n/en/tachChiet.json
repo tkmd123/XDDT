@@ -1,0 +1,34 @@
+{
+  "xddtApp": {
+    "tachChiet": {
+      "home": {
+        "title": "Tach Chiets",
+        "createLabel": "Create a new Tach Chiet",
+        "createOrEditLabel": "Create or edit a Tach Chiet",
+        "search": "Search for Tach Chiet"
+      },
+      "created": "A new Tach Chiet is created with identifier {{ param }}",
+      "updated": "A Tach Chiet is updated with identifier {{ param }}",
+      "deleted": "A Tach Chiet is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tach Chiet {{ id }}?"
+      },
+      "detail": {
+        "title": "Tach Chiet"
+      },
+      "maTachChiet": "Ma Tach Chiet",
+      "moTa": "Mo Ta",
+      "ghiChu": "Ghi Chu",
+      "thoiGianThucHien": "Thoi Gian Thuc Hien",
+      "phuongPhapLoc": "Phuong Phap Loc",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "tachChietMau": "Tach Chiet Mau",
+      "tachChietHoaChat": "Tach Chiet Hoa Chat",
+      "nhanVienNghienMau": "Nhan Vien Nghien Mau",
+      "nhanVienTachADN": "Nhan Vien Tach ADN"
+    }
+  }
+}

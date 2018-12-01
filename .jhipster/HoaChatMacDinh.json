@@ -1,0 +1,39 @@
+{
+    "name": "HoaChatMacDinh",
+    "fields": [
+        {
+            "fieldName": "loaiThaoTac",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDefault",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181201030027",
+    "entityTableName": "hoa_chat_mac_dinh",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

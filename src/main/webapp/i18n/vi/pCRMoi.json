@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "pCRMoi": {
+      "home": {
+        "title": "PCR Mois",
+        "createLabel": "Thêm mới một PCR Moi",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật PCR Moi",
+        "search": "Tìm PCR Moi"
+      },
+      "created": "Một PCR Moi mới được tạo với định danh {{ param }}",
+      "updated": "Một PCR Moi cập nhật với định danh {{ param }}",
+      "deleted": "Một PCR Moi đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa PCR Moi {{ id }}?"
+      },
+      "detail": {
+        "title": "PCR Moi"
+      },
+      "maMoi": "Ma Moi",
+      "tenMoi": "Ten Moi",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "moiPCR": "Moi PCR"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "quanHeThanNhan": {
+      "home": {
+        "title": "Quan He Than Nhans",
+        "createLabel": "Create a new Quan He Than Nhan",
+        "createOrEditLabel": "Create or edit a Quan He Than Nhan",
+        "search": "Search for Quan He Than Nhan"
+      },
+      "created": "A new Quan He Than Nhan is created with identifier {{ param }}",
+      "updated": "A Quan He Than Nhan is updated with identifier {{ param }}",
+      "deleted": "A Quan He Than Nhan is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Quan He Than Nhan {{ id }}?"
+      },
+      "detail": {
+        "title": "Quan He Than Nhan"
+      },
+      "maQuanHe": "Ma Quan He",
+      "loaiQuanHe": "Loai Quan He",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "quanHeThanNhan": "Quan He Than Nhan"
+    }
+  }
+}

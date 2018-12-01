@@ -1,0 +1,38 @@
+{
+  "xddtApp": {
+    "donVi": {
+      "home": {
+        "title": "Don Vis",
+        "createLabel": "Thêm mới một Don Vi",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Don Vi",
+        "search": "Tìm Don Vi"
+      },
+      "created": "Một Don Vi mới được tạo với định danh {{ param }}",
+      "updated": "Một Don Vi cập nhật với định danh {{ param }}",
+      "deleted": "Một Don Vi đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Don Vi {{ id }}?"
+      },
+      "detail": {
+        "title": "Don Vi"
+      },
+      "maDonVi": "Ma Don Vi",
+      "tenDonVi": "Ten Don Vi",
+      "tenTat": "Ten Tat",
+      "phanMuc": "Phan Muc",
+      "phanCap": "Phan Cap",
+      "phanKhoi": "Phan Khoi",
+      "moTa": "Mo Ta",
+      "ghiChu": "Ghi Chu",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "donViHySinh": "Don Vi Hy Sinh",
+      "donViHuanLuyen": "Don Vi Huan Luyen",
+      "donViQuanLy": "Don Vi Quan Ly",
+      "donViThoiKy": "Don Vi Thoi Ky",
+      "donViQuanLy": "Don Vi Quan Ly"
+    }
+  }
+}

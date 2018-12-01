@@ -1,0 +1,42 @@
+{
+  "xddtApp": {
+    "pCR": {
+      "home": {
+        "title": "PCRS",
+        "createLabel": "Create a new PCR",
+        "createOrEditLabel": "Create or edit a PCR",
+        "search": "Search for PCR"
+      },
+      "created": "A new PCR is created with identifier {{ param }}",
+      "updated": "A PCR is updated with identifier {{ param }}",
+      "deleted": "A PCR is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete PCR {{ id }}?"
+      },
+      "detail": {
+        "title": "PCR"
+      },
+      "maPCR": "Ma PCR",
+      "thoiGianThucHien": "Thoi Gian Thuc Hien",
+      "nhanXet": "Nhan Xet",
+      "thoiGianBatDau": "Thoi Gian Bat Dau",
+      "congSuatBatDau": "Cong Suat Bat Dau",
+      "cuongDoBatDau": "Cuong Do Bat Dau",
+      "dienTheBatDau": "Dien The Bat Dau",
+      "thoiGianKetThuc": "Thoi Gian Ket Thuc",
+      "congSuatKetThuc": "Cong Suat Ket Thuc",
+      "cuongDoKetThuc": "Cuong Do Ket Thuc",
+      "dienTheKetThuc": "Dien The Ket Thuc",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "udf4": "Udf 4",
+      "udf5": "Udf 5",
+      "pcrMau": "Pcr Mau",
+      "pcrPhanUng": "Pcr Phan Ung",
+      "mayPCR": "May PCR",
+      "nhanVienPCR": "Nhan Vien PCR"
+    }
+  }
+}

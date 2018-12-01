@@ -1,0 +1,106 @@
+{
+    "name": "NhanVien",
+    "fields": [
+        {
+            "fieldName": "maNhanVien",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenNhanVien",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "soDienThoai",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ghiChu",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "userNhanVien",
+            "otherEntityName": "user",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "nhanVien"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "nhanVienTinhSach",
+            "otherEntityName": "tinhSach",
+            "otherEntityRelationshipName": "nhanVienTinhSach"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "nhanVienPCR",
+            "otherEntityName": "pCR",
+            "otherEntityRelationshipName": "nhanVienPCR"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "nhanVienNghienMau",
+            "otherEntityName": "tachChiet",
+            "otherEntityRelationshipName": "nhanVienNghienMau"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "nhanVienTachADN",
+            "otherEntityName": "tachChiet",
+            "otherEntityRelationshipName": "nhanVienTachADN"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "nhanVienHSGD",
+            "otherEntityName": "hoSoGiamDinh",
+            "otherEntityRelationshipName": "nhanVienHSGD"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "nhanVienNhanMau",
+            "otherEntityName": "mauXetNghiem",
+            "otherEntityRelationshipName": "nhanVienNhanMau"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "phongban",
+            "otherEntityName": "phongBan",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181201030047",
+    "entityTableName": "nhan_vien",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

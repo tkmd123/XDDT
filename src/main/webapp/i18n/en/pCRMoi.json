@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "pCRMoi": {
+      "home": {
+        "title": "PCR Mois",
+        "createLabel": "Create a new PCR Moi",
+        "createOrEditLabel": "Create or edit a PCR Moi",
+        "search": "Search for PCR Moi"
+      },
+      "created": "A new PCR Moi is created with identifier {{ param }}",
+      "updated": "A PCR Moi is updated with identifier {{ param }}",
+      "deleted": "A PCR Moi is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete PCR Moi {{ id }}?"
+      },
+      "detail": {
+        "title": "PCR Moi"
+      },
+      "maMoi": "Ma Moi",
+      "tenMoi": "Ten Moi",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "moiPCR": "Moi PCR"
+    }
+  }
+}

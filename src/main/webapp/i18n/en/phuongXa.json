@@ -1,0 +1,32 @@
+{
+  "xddtApp": {
+    "phuongXa": {
+      "home": {
+        "title": "Phuong Xas",
+        "createLabel": "Create a new Phuong Xa",
+        "createOrEditLabel": "Create or edit a Phuong Xa",
+        "search": "Search for Phuong Xa"
+      },
+      "created": "A new Phuong Xa is created with identifier {{ param }}",
+      "updated": "A Phuong Xa is updated with identifier {{ param }}",
+      "deleted": "A Phuong Xa is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Phuong Xa {{ id }}?"
+      },
+      "detail": {
+        "title": "Phuong Xa"
+      },
+      "maXa": "Ma Xa",
+      "tenXa": "Ten Xa",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "quanHuyen": "Quan Huyen",
+      "phuongXaNghiaTrang": "Phuong Xa Nghia Trang",
+      "phuongXaLietSi": "Phuong Xa Liet Si",
+      "phuongXaThanNhan": "Phuong Xa Than Nhan"
+    }
+  }
+}

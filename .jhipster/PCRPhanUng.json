@@ -1,0 +1,52 @@
+{
+    "name": "PCRPhanUng",
+    "fields": [
+        {
+            "fieldName": "chuKyPhanUng",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dungTich",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "pcrPhanUng",
+            "otherEntityName": "pCR",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "hoaChatPhanUng",
+            "otherEntityName": "hoaChat",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181201030035",
+    "entityTableName": "pcr_phan_ung",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

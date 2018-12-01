@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity HinhThaiHaiCot.
+    -->
+    <changeSet id="20181201030023-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="hai_cot_liet_si_id"
+                                 baseTableName="hinh_thai_hai_cot"
+                                 constraintName="fk_hinh_thai_hai_cot_hai_cot_liet_si_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="hai_cot_liet_si"/>
+
+        <addForeignKeyConstraint baseColumnNames="loai_hinh_thai_hai_cot_id"
+                                 baseTableName="hinh_thai_hai_cot"
+                                 constraintName="fk_hinh_thai_hai_cot_loai_hinh_thai_hai_cot_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="loai_hinh_thai_hai_cot"/>
+
+    </changeSet>
+</databaseChangeLog>

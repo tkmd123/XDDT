@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "tinhSachPhanUng": {
+      "home": {
+        "title": "Tinh Sach Phan Ungs",
+        "createLabel": "Create a new Tinh Sach Phan Ung",
+        "createOrEditLabel": "Create or edit a Tinh Sach Phan Ung",
+        "search": "Search for Tinh Sach Phan Ung"
+      },
+      "created": "A new Tinh Sach Phan Ung is created with identifier {{ param }}",
+      "updated": "A Tinh Sach Phan Ung is updated with identifier {{ param }}",
+      "deleted": "A Tinh Sach Phan Ung is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tinh Sach Phan Ung {{ id }}?"
+      },
+      "detail": {
+        "title": "Tinh Sach Phan Ung"
+      },
+      "dungTichSuDung": "Dung Tich Su Dung",
+      "chuTrinhNhietDo": "Chu Trinh Nhiet Do",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "tinhSach": "Tinh Sach",
+      "hoaChatTinhSach": "Hoa Chat Tinh Sach"
+    }
+  }
+}

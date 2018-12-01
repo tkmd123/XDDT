@@ -1,0 +1,74 @@
+{
+    "name": "ThongTinKhaiQuat",
+    "fields": [
+        {
+            "fieldName": "maKhaiQuat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nguoiKhaiQuat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "donViKhaiQuat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "thoiGianKhaiQuat",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "coHaiCot",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "soLuongHaiCot",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "khaiQuatHaiCot",
+            "otherEntityName": "haiCotLietSi",
+            "otherEntityRelationshipName": "thongTinKhaiQuat"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "khaiQuatDiVat",
+            "otherEntityName": "diVat",
+            "otherEntityRelationshipName": "thongTinKhaiQuat"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "thongTinMo",
+            "otherEntityName": "thongTinMo",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181201030018",
+    "entityTableName": "thong_tin_khai_quat",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

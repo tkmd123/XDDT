@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity ThanNhanLietSi.
+    -->
+    <changeSet id="20181201030015-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="liet_si_id"
+                                 baseTableName="than_nhan_liet_si"
+                                 constraintName="fk_than_nhan_liet_si_liet_si_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ho_so_liet_si"/>
+
+        <addForeignKeyConstraint baseColumnNames="than_nhan_id"
+                                 baseTableName="than_nhan_liet_si"
+                                 constraintName="fk_than_nhan_liet_si_than_nhan_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ho_so_than_nhan"/>
+
+        <addForeignKeyConstraint baseColumnNames="quan_he_than_nhan_id"
+                                 baseTableName="than_nhan_liet_si"
+                                 constraintName="fk_than_nhan_liet_si_quan_he_than_nhan_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="quan_he_than_nhan"/>
+
+    </changeSet>
+</databaseChangeLog>

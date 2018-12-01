@@ -1,0 +1,52 @@
+{
+    "name": "HoaChatTachChiet",
+    "fields": [
+        {
+            "fieldName": "soLuong",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "hoaChat",
+            "otherEntityName": "hoaChat",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "tachChiet",
+            "otherEntityName": "tachChiet",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181201030029",
+    "entityTableName": "hoa_chat_tach_chiet",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

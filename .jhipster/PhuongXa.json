@@ -1,0 +1,68 @@
+{
+    "name": "PhuongXa",
+    "fields": [
+        {
+            "fieldName": "maXa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenXa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "quanHuyen",
+            "otherEntityName": "quanHuyen",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "phuongXaNghiaTrang",
+            "otherEntityName": "nghiaTrang",
+            "otherEntityRelationshipName": "phuongXa"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "phuongXaLietSi",
+            "otherEntityName": "hoSoLietSi",
+            "otherEntityRelationshipName": "phuongXa"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "phuongXaThanNhan",
+            "otherEntityName": "hoSoThanNhan",
+            "otherEntityRelationshipName": "phuongXa"
+        }
+    ],
+    "changelogDate": "20181201030006",
+    "entityTableName": "phuong_xa",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

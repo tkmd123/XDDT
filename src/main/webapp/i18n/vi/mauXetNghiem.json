@@ -1,0 +1,49 @@
+{
+  "xddtApp": {
+    "mauXetNghiem": {
+      "home": {
+        "title": "Mau Xet Nghiems",
+        "createLabel": "Thêm mới một Mau Xet Nghiem",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Mau Xet Nghiem",
+        "search": "Tìm Mau Xet Nghiem"
+      },
+      "created": "Một Mau Xet Nghiem mới được tạo với định danh {{ param }}",
+      "updated": "Một Mau Xet Nghiem cập nhật với định danh {{ param }}",
+      "deleted": "Một Mau Xet Nghiem đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Mau Xet Nghiem {{ id }}?"
+      },
+      "detail": {
+        "title": "Mau Xet Nghiem"
+      },
+      "maMauXetNghiem": "Ma Mau Xet Nghiem",
+      "ngayLayMau": "Ngay Lay Mau",
+      "nguoiLayMau": "Nguoi Lay Mau",
+      "ngayTiepNhan": "Ngay Tiep Nhan",
+      "soLuongMau": "So Luong Mau",
+      "trangThaiMau": "Trang Thai Mau",
+      "moTa": "Mo Ta",
+      "ghiChu": "Ghi Chu",
+      "fileGoc": "File Goc",
+      "fileKetQua": "File Ket Qua",
+      "fileDotBien": "File Dot Bien",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "udf4": "Udf 4",
+      "udf5": "Udf 5",
+      "mauPCR": "Mau PCR",
+      "mauTachChiet": "Mau Tach Chiet",
+      "mauDiemDotBien": "Mau Diem Dot Bien",
+      "mauPhanTich": "Mau Phan Tich",
+      "mauTinhSach": "Mau Tinh Sach",
+      "hoSoGiamDinh": "Ho So Giam Dinh",
+      "nhanVienNhanMau": "Nhan Vien Nhan Mau",
+      "loaiMauXetNghiem": "Loai Mau Xet Nghiem",
+      "haiCotLietSi": "Hai Cot Liet Si",
+      "thanNhan": "Than Nhan",
+      "loaiThaoTac": "Loai Thao Tac"
+    }
+  }
+}

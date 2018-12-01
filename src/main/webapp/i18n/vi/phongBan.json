@@ -1,0 +1,33 @@
+{
+  "xddtApp": {
+    "phongBan": {
+      "home": {
+        "title": "Phong Bans",
+        "createLabel": "Thêm mới một Phong Ban",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Phong Ban",
+        "search": "Tìm Phong Ban"
+      },
+      "created": "Một Phong Ban mới được tạo với định danh {{ param }}",
+      "updated": "Một Phong Ban cập nhật với định danh {{ param }}",
+      "deleted": "Một Phong Ban đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Phong Ban {{ id }}?"
+      },
+      "detail": {
+        "title": "Phong Ban"
+      },
+      "maPhongBan": "Ma Phong Ban",
+      "tenPhongBan": "Ten Phong Ban",
+      "moTa": "Mo Ta",
+      "isActive": "Is Active",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "phongban": "Phongban",
+      "phongLabPhanTich": "Phong Lab Phan Tich",
+      "phongBanThaoTac": "Phong Ban Thao Tac",
+      "trungtam": "Trungtam"
+    }
+  }
+}

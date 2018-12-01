@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "capBac": {
+      "home": {
+        "title": "Cap Bacs",
+        "createLabel": "Create a new Cap Bac",
+        "createOrEditLabel": "Create or edit a Cap Bac",
+        "search": "Search for Cap Bac"
+      },
+      "created": "A new Cap Bac is created with identifier {{ param }}",
+      "updated": "A Cap Bac is updated with identifier {{ param }}",
+      "deleted": "A Cap Bac is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Cap Bac {{ id }}?"
+      },
+      "detail": {
+        "title": "Cap Bac"
+      },
+      "maCapBac": "Ma Cap Bac",
+      "tenCapBac": "Ten Cap Bac",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "capBacLietSi": "Cap Bac Liet Si"
+    }
+  }
+}

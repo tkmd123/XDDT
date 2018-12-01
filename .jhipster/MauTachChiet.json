@@ -1,0 +1,104 @@
+{
+    "name": "MauTachChiet",
+    "fields": [
+        {
+            "fieldName": "dacDiemMau",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "soLuongSuDung",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "nhanXet",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "xuLyBeMat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "khoiLuongNghien",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "khoiLuongDeTach",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "khoiLuongSauKhu",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "khoiLuongSauLoc",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "khoiLuongADN",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "khoiLuongChuaNghien",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "ghiChuTach",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ghiChuADN",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "float1",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "float2",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "float3",
+            "fieldType": "Float"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "mauTachChiet",
+            "otherEntityName": "mauXetNghiem",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "tachChietMau",
+            "otherEntityName": "tachChiet",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181201030030",
+    "entityTableName": "mau_tach_chiet",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,30 @@
+{
+  "xddtApp": {
+    "hoSoGiamDinh": {
+      "home": {
+        "title": "Ho So Giam Dinhs",
+        "createLabel": "Thêm mới một Ho So Giam Dinh",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Ho So Giam Dinh",
+        "search": "Tìm Ho So Giam Dinh"
+      },
+      "created": "Một Ho So Giam Dinh mới được tạo với định danh {{ param }}",
+      "updated": "Một Ho So Giam Dinh cập nhật với định danh {{ param }}",
+      "deleted": "Một Ho So Giam Dinh đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Ho So Giam Dinh {{ id }}?"
+      },
+      "detail": {
+        "title": "Ho So Giam Dinh"
+      },
+      "maHSGD": "Ma HSGD",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "hoSoGiamDinh": "Ho So Giam Dinh",
+      "giamDinhThanNhan": "Giam Dinh Than Nhan",
+      "giamDinhLietSi": "Giam Dinh Liet Si",
+      "nhanVienHSGD": "Nhan Vien HSGD"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "xddtApp": {
+    "thaoTac": {
+      "home": {
+        "title": "Thao Tacs",
+        "createLabel": "Thêm mới một Thao Tac",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Thao Tac",
+        "search": "Tìm Thao Tac"
+      },
+      "created": "Một Thao Tac mới được tạo với định danh {{ param }}",
+      "updated": "Một Thao Tac cập nhật với định danh {{ param }}",
+      "deleted": "Một Thao Tac đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Thao Tac {{ id }}?"
+      },
+      "detail": {
+        "title": "Thao Tac"
+      },
+      "moTaKetQua": "Mo Ta Ket Qua",
+      "trangThaiXuLy": "Trang Thai Xu Ly",
+      "isDangThucHien": "Is Dang Thuc Hien",
+      "isDeleted": "Is Deleted",
+      "mauXetNghiem": "Mau Xet Nghiem",
+      "phongBan": "Phong Ban",
+      "loaiThaoTac": "Loai Thao Tac"
+    }
+  }
+}

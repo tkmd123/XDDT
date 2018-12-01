@@ -1,0 +1,50 @@
+{
+    "name": "QuanHeThanNhan",
+    "fields": [
+        {
+            "fieldName": "maQuanHe",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "loaiQuanHe",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "quanHeThanNhan",
+            "otherEntityName": "thanNhanLietSi",
+            "otherEntityRelationshipName": "quanHeThanNhan"
+        }
+    ],
+    "changelogDate": "20181201030013",
+    "entityTableName": "quan_he_than_nhan",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

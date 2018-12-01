@@ -1,0 +1,27 @@
+{
+  "xddtApp": {
+    "hoaChatMacDinh": {
+      "home": {
+        "title": "Hoa Chat Mac Dinhs",
+        "createLabel": "Create a new Hoa Chat Mac Dinh",
+        "createOrEditLabel": "Create or edit a Hoa Chat Mac Dinh",
+        "search": "Search for Hoa Chat Mac Dinh"
+      },
+      "created": "A new Hoa Chat Mac Dinh is created with identifier {{ param }}",
+      "updated": "A Hoa Chat Mac Dinh is updated with identifier {{ param }}",
+      "deleted": "A Hoa Chat Mac Dinh is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Hoa Chat Mac Dinh {{ id }}?"
+      },
+      "detail": {
+        "title": "Hoa Chat Mac Dinh"
+      },
+      "loaiThaoTac": "Loai Thao Tac",
+      "isDefault": "Is Default",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3"
+    }
+  }
+}

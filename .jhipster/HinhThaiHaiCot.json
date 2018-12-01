@@ -1,0 +1,52 @@
+{
+    "name": "HinhThaiHaiCot",
+    "fields": [
+        {
+            "fieldName": "giaTri",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "haiCotLietSi",
+            "otherEntityName": "haiCotLietSi",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "loaiHinhThaiHaiCot",
+            "otherEntityName": "loaiHinhThaiHaiCot",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181201030023",
+    "entityTableName": "hinh_thai_hai_cot",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

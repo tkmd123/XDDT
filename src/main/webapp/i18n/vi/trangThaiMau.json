@@ -1,0 +1,16 @@
+{
+  "xddtApp": {
+    "TrangThaiMau": {
+      "null": "",
+      "MOI": "MOI",
+      "DATACHCHIET": "DATACHCHIET",
+      "PCRDAT": "PCRDAT",
+      "PCRLOAI": "PCRLOAI",
+      "NHANBAN": "NHANBAN",
+      "GIAITRINHTU": "GIAITRINHTU",
+      "HOANTHANH": "HOANTHANH",
+      "KHONGDATCHUAN": "KHONGDATCHUAN",
+      "HUY": "HUY"
+    }
+  }
+}

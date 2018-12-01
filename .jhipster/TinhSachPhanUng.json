@@ -1,0 +1,52 @@
+{
+    "name": "TinhSachPhanUng",
+    "fields": [
+        {
+            "fieldName": "dungTichSuDung",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "chuTrinhNhietDo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "tinhSach",
+            "otherEntityName": "tinhSach",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "hoaChatTinhSach",
+            "otherEntityName": "hoaChat",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181201030039",
+    "entityTableName": "tinh_sach_phan_ung",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "trungTam": {
+      "home": {
+        "title": "Trung Tams",
+        "createLabel": "Create a new Trung Tam",
+        "createOrEditLabel": "Create or edit a Trung Tam",
+        "search": "Search for Trung Tam"
+      },
+      "created": "A new Trung Tam is created with identifier {{ param }}",
+      "updated": "A Trung Tam is updated with identifier {{ param }}",
+      "deleted": "A Trung Tam is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Trung Tam {{ id }}?"
+      },
+      "detail": {
+        "title": "Trung Tam"
+      },
+      "maTrungTam": "Ma Trung Tam",
+      "tenTrungTam": "Ten Trung Tam",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "trungtam": "Trungtam"
+    }
+  }
+}

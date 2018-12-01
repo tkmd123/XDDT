@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "hoaChatTachChiet": {
+      "home": {
+        "title": "Hoa Chat Tach Chiets",
+        "createLabel": "Thêm mới một Hoa Chat Tach Chiet",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Hoa Chat Tach Chiet",
+        "search": "Tìm Hoa Chat Tach Chiet"
+      },
+      "created": "Một Hoa Chat Tach Chiet mới được tạo với định danh {{ param }}",
+      "updated": "Một Hoa Chat Tach Chiet cập nhật với định danh {{ param }}",
+      "deleted": "Một Hoa Chat Tach Chiet đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Hoa Chat Tach Chiet {{ id }}?"
+      },
+      "detail": {
+        "title": "Hoa Chat Tach Chiet"
+      },
+      "soLuong": "So Luong",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "hoaChat": "Hoa Chat",
+      "tachChiet": "Tach Chiet"
+    }
+  }
+}

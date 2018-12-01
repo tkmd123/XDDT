@@ -1,0 +1,30 @@
+{
+  "xddtApp": {
+    "mayPCR": {
+      "home": {
+        "title": "May PCRS",
+        "createLabel": "Create a new May PCR",
+        "createOrEditLabel": "Create or edit a May PCR",
+        "search": "Search for May PCR"
+      },
+      "created": "A new May PCR is created with identifier {{ param }}",
+      "updated": "A May PCR is updated with identifier {{ param }}",
+      "deleted": "A May PCR is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete May PCR {{ id }}?"
+      },
+      "detail": {
+        "title": "May PCR"
+      },
+      "maMayPCR": "Ma May PCR",
+      "tenMayPCR": "Ten May PCR",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "mayTinhSach": "May Tinh Sach",
+      "mayPCR": "May PCR"
+    }
+  }
+}

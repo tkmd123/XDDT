@@ -1,0 +1,29 @@
+{
+  "xddtApp": {
+    "pCRPhanUng": {
+      "home": {
+        "title": "PCR Phan Ungs",
+        "createLabel": "Thêm mới một PCR Phan Ung",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật PCR Phan Ung",
+        "search": "Tìm PCR Phan Ung"
+      },
+      "created": "Một PCR Phan Ung mới được tạo với định danh {{ param }}",
+      "updated": "Một PCR Phan Ung cập nhật với định danh {{ param }}",
+      "deleted": "Một PCR Phan Ung đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa PCR Phan Ung {{ id }}?"
+      },
+      "detail": {
+        "title": "PCR Phan Ung"
+      },
+      "chuKyPhanUng": "Chu Ky Phan Ung",
+      "dungTich": "Dung Tich",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "pcrPhanUng": "Pcr Phan Ung",
+      "hoaChatPhanUng": "Hoa Chat Phan Ung"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "xddtApp": {
+    "pCRPhanUngChuan": {
+      "home": {
+        "title": "PCR Phan Ung Chuans",
+        "createLabel": "Create a new PCR Phan Ung Chuan",
+        "createOrEditLabel": "Create or edit a PCR Phan Ung Chuan",
+        "search": "Search for PCR Phan Ung Chuan"
+      },
+      "created": "A new PCR Phan Ung Chuan is created with identifier {{ param }}",
+      "updated": "A PCR Phan Ung Chuan is updated with identifier {{ param }}",
+      "deleted": "A PCR Phan Ung Chuan is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete PCR Phan Ung Chuan {{ id }}?"
+      },
+      "detail": {
+        "title": "PCR Phan Ung Chuan"
+      },
+      "chuKyPhanUng": "Chu Ky Phan Ung",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3"
+    }
+  }
+}

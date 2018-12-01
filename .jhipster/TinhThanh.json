@@ -1,0 +1,50 @@
+{
+    "name": "TinhThanh",
+    "fields": [
+        {
+            "fieldName": "maTinh",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenTinh",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "udf1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "udf3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "tinhThanhQuanHuyen",
+            "otherEntityName": "quanHuyen",
+            "otherEntityRelationshipName": "tinhThanh"
+        }
+    ],
+    "changelogDate": "20181201030004",
+    "entityTableName": "tinh_thanh",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

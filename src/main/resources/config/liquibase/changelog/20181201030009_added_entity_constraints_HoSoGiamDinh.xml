@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity HoSoGiamDinh.
+    -->
+    <changeSet id="20181201030009-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="ho_so_giam_dinhs_id"
+                                 baseTableName="ho_so_giam_dinh_giam_dinh_than_nhan"
+                                 constraintName="fk_ho_so_giam_dinh_giam_dinh_than_nhan_ho_so_giam_dinhs_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ho_so_giam_dinh"/>
+        <addForeignKeyConstraint baseColumnNames="giam_dinh_than_nhans_id"
+                                 baseTableName="ho_so_giam_dinh_giam_dinh_than_nhan"
+                                 constraintName="fk_ho_so_giam_dinh_giam_dinh_than_nhan_giam_dinh_than_nhans_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ho_so_than_nhan"/>
+        
+        <addForeignKeyConstraint baseColumnNames="ho_so_giam_dinhs_id"
+                                 baseTableName="ho_so_giam_dinh_giam_dinh_liet_si"
+                                 constraintName="fk_ho_so_giam_dinh_giam_dinh_liet_si_ho_so_giam_dinhs_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ho_so_giam_dinh"/>
+        <addForeignKeyConstraint baseColumnNames="giam_dinh_liet_sis_id"
+                                 baseTableName="ho_so_giam_dinh_giam_dinh_liet_si"
+                                 constraintName="fk_ho_so_giam_dinh_giam_dinh_liet_si_giam_dinh_liet_sis_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ho_so_liet_si"/>
+        
+        <addForeignKeyConstraint baseColumnNames="nhan_vienhsgd_id"
+                                 baseTableName="ho_so_giam_dinh"
+                                 constraintName="fk_ho_so_giam_dinh_nhan_vienhsgd_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="nhan_vien"/>
+
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,39 @@
+{
+  "xddtApp": {
+    "nhanVien": {
+      "home": {
+        "title": "Nhan Viens",
+        "createLabel": "Thêm mới một Nhan Vien",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Nhan Vien",
+        "search": "Tìm Nhan Vien"
+      },
+      "created": "Một Nhan Vien mới được tạo với định danh {{ param }}",
+      "updated": "Một Nhan Vien cập nhật với định danh {{ param }}",
+      "deleted": "Một Nhan Vien đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Nhan Vien {{ id }}?"
+      },
+      "detail": {
+        "title": "Nhan Vien"
+      },
+      "maNhanVien": "Ma Nhan Vien",
+      "tenNhanVien": "Ten Nhan Vien",
+      "soDienThoai": "So Dien Thoai",
+      "email": "Email",
+      "moTa": "Mo Ta",
+      "ghiChu": "Ghi Chu",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "userNhanVien": "User Nhan Vien",
+      "nhanVienTinhSach": "Nhan Vien Tinh Sach",
+      "nhanVienPCR": "Nhan Vien PCR",
+      "nhanVienNghienMau": "Nhan Vien Nghien Mau",
+      "nhanVienTachADN": "Nhan Vien Tach ADN",
+      "nhanVienHSGD": "Nhan Vien HSGD",
+      "nhanVienNhanMau": "Nhan Vien Nhan Mau",
+      "phongban": "Phongban"
+    }
+  }
+}

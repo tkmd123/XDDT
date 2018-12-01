@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity ThaoTac.
+    -->
+    <changeSet id="20181201030044-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="mau_xet_nghiem_id"
+                                 baseTableName="thao_tac"
+                                 constraintName="fk_thao_tac_mau_xet_nghiem_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="mau_xet_nghiem"/>
+
+        <addForeignKeyConstraint baseColumnNames="phong_ban_id"
+                                 baseTableName="thao_tac"
+                                 constraintName="fk_thao_tac_phong_ban_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="phong_ban"/>
+
+        <addForeignKeyConstraint baseColumnNames="loai_thao_tac_id"
+                                 baseTableName="thao_tac"
+                                 constraintName="fk_thao_tac_loai_thao_tac_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="loai_thao_tac"/>
+
+    </changeSet>
+</databaseChangeLog>

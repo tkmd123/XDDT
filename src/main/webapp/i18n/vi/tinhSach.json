@@ -1,0 +1,32 @@
+{
+  "xddtApp": {
+    "tinhSach": {
+      "home": {
+        "title": "Tinh Saches",
+        "createLabel": "Thêm mới một Tinh Sach",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Tinh Sach",
+        "search": "Tìm Tinh Sach"
+      },
+      "created": "Một Tinh Sach mới được tạo với định danh {{ param }}",
+      "updated": "Một Tinh Sach cập nhật với định danh {{ param }}",
+      "deleted": "Một Tinh Sach đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Tinh Sach {{ id }}?"
+      },
+      "detail": {
+        "title": "Tinh Sach"
+      },
+      "maTinhSach": "Ma Tinh Sach",
+      "thoiGianThucHien": "Thoi Gian Thuc Hien",
+      "phuongPhapTinhSach": "Phuong Phap Tinh Sach",
+      "moTa": "Mo Ta",
+      "isDeleted": "Is Deleted",
+      "udf1": "Udf 1",
+      "udf2": "Udf 2",
+      "udf3": "Udf 3",
+      "tinhSach": "Tinh Sach",
+      "nhanVienTinhSach": "Nhan Vien Tinh Sach",
+      "mayTinhSach": "May Tinh Sach"
+    }
+  }
+}

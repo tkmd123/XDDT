@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <property name="now" value="now()" dbms="h2"/>
+
+    <property name="now" value="now()" dbms="mysql"/>
+    <property name="autoIncrement" value="true"/>
+
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle, mssql"/>
+
+    <!--
+        Added the entity HoSoLietSi.
+    -->
+    <changeSet id="20181201030010-1" author="jhipster">
+        <createTable tableName="ho_so_liet_si">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="ma_ccs" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="ma_liet_si" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="ho_ten" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="ten_khac" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="bi_danh" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="gioi_tinh" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="nam_sinh" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="que_thon" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="que_xa" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="que_huyen" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="que_tinh" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="don_vi" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="nam_nhap_ngu" type="integer">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="nam_xuat_ngu" type="integer">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="nam_tai_ngu" type="integer">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="nam_di_b" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="hy_sinh_ngay" type="integer">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="hy_sinh_thang" type="integer">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="hy_sinh_nam" type="integer">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="hy_sinh_ly_do" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="hy_sinh_don_vi" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="hy_sinh_tran_danh" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="hy_sinh_dia_diem" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="hy_sinh_xa" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="hy_sinh_huyen" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="hy_sinh_tinh" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="an_tang_dia_diem" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="an_tang_xa" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="an_tang_huyen" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="an_tang_tinh" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="ngay_bao_tu" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="giay_bao_tu" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="vat_dung_kem_theo" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="ghi_chu" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="trang_thai_xac_minh" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="chieu_cao" type="integer">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="can_nang" type="integer">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="nhom_mau" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="dac_diem_rang" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="tinh_huong_hy_sinh" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="tinh_huong_tim_thay" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="dac_diem_nhan_dang" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="is_deleted" type="bit">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="udf_1" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="udf_2" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="udf_3" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="udf_4" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="udf_5" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="phuong_xa_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="don_vi_hi_sinh_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="don_vi_huan_luyen_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="cap_bac_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+
+            <column name="chuc_vu_id" type="bigint">
+                <constraints nullable="true" />
+            </column>
+
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here, do not remove-->
+        </createTable>
+        
+    </changeSet>
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here, do not remove-->
+</databaseChangeLog>

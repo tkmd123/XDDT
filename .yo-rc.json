@@ -36,5 +36,8 @@
   },
   "git-provider": "GitHub",
   "git-company": "tkmd123",
-  "repository-name": "XDDT"
+  "repository-name": "XDDT",
+  "generator-jhipster-entity-audit": {
+    "auditFramework": "custom"
+  }
 }

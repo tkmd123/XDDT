@@ -19,7 +19,7 @@ import java.util.Objects;
 @Table(name = "loai_di_vat")
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @Document(indexName = "loaidivat")
-public class LoaiDiVat implements Serializable {
+public class LoaiDiVat extends AbstractAuditingEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

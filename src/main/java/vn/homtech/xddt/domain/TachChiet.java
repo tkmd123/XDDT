@@ -23,7 +23,7 @@ import vn.homtech.xddt.domain.enumeration.PhuongPhapLoc;
 @Table(name = "tach_chiet")
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @Document(indexName = "tachchiet")
-public class TachChiet implements Serializable {
+public class TachChiet extends AbstractAuditingEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

@@ -20,7 +20,7 @@ import java.util.Objects;
 @Table(name = "ho_so_giam_dinh")
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @Document(indexName = "hosogiamdinh")
-public class HoSoGiamDinh implements Serializable {
+public class HoSoGiamDinh extends AbstractAuditingEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

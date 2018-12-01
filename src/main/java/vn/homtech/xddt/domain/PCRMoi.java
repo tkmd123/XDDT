@@ -19,7 +19,7 @@ import java.util.Objects;
 @Table(name = "pcr_moi")
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @Document(indexName = "pcrmoi")
-public class PCRMoi implements Serializable {
+public class PCRMoi extends AbstractAuditingEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

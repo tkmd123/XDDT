@@ -144,6 +144,7 @@ public class CacheConfiguration {
             cm.createCache(vn.homtech.xddt.domain.NhanVien.class.getName() + ".nhanVienTachADNS", jcacheConfiguration);
             cm.createCache(vn.homtech.xddt.domain.NhanVien.class.getName() + ".nhanVienHSGDS", jcacheConfiguration);
             cm.createCache(vn.homtech.xddt.domain.NhanVien.class.getName() + ".nhanVienNhanMaus", jcacheConfiguration);
+            cm.createCache(vn.homtech.xddt.domain.EntityAuditEvent.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

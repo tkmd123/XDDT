@@ -19,7 +19,7 @@ import java.util.Objects;
 @Table(name = "cap_bac")
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @Document(indexName = "capbac")
-public class CapBac implements Serializable {
+public class CapBac extends AbstractAuditingEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

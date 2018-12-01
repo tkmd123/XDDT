@@ -23,7 +23,7 @@ import vn.homtech.xddt.domain.enumeration.TrangThaiMau;
 @Table(name = "mau_xet_nghiem")
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @Document(indexName = "mauxetnghiem")
-public class MauXetNghiem implements Serializable {
+public class MauXetNghiem extends AbstractAuditingEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

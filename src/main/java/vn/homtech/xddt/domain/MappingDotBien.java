@@ -16,7 +16,7 @@ import java.util.Objects;
 @Table(name = "mapping_dot_bien")
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @Document(indexName = "mappingdotbien")
-public class MappingDotBien implements Serializable {
+public class MappingDotBien extends AbstractAuditingEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
